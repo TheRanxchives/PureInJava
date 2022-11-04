@@ -92,6 +92,7 @@ public class Main {
 	  String eight = myNums[7];
 	  String eighti = myNumerals[0];
 	  String eightii = myNumerals[1];
+          String eightiii = myNumerals[2];
 	  String eighta = myLets[0];
 	  String eightb = myLets[1];
 	  // (a)
@@ -100,6 +101,10 @@ public class Main {
 	  // (b)
 	  String eightbi = eight + eightb + eighti;
 	  String eightbii = eight + eightb + eightii;
+	  String eightbiia = eight + eightb + eightii + eighta;
+	  String eightbiib = eight + eightb + eightii + eightb;
+	  String eightbiiia = eight + eightb + eightiii + eighta;
+	  String eightbiiib = eight + eightb + eightiii + eightb;
           // integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -274,22 +279,43 @@ public class Main {
 	System.out.println(iamnotfull);
 	}
 	// (b)
-	boolean namealvin = true;
+        String[] myFriends = {"Jayden", "Yohan" , "Nigel" , "Jayden"};
+	String name = "Yohan";
 	String q8b = "What is your name?";
-	String legendi = "Legendary Name, same as the person who made this! (";
+	String legendi = "Legendary Name, same as the person who made this (and friends)! (";
 	String legendii = ")";
 	String normali = "Sweet name (";
 	String normalii = ")";
 	String q8bfull = eightbi + fullstop + q8b;
-        String legendfull = eightbii + fullstop + legendi + namealvin + legendii;
-        String normalfull = eightbii + fullstop + normali + namealvin + normalii;
+        String legendfulli = eightbiia + fullstop + legendi + name + legendii;
+        String legendfullii = eightbiib + fullstop + legendi + name + legendii;
+        String legendfulliii = eightbiiia + fullstop + legendi + name + legendii;
+        String legendfulliv = eightbiiib + fullstop + legendi + name + legendii;
+        String normalfulli = eightbii + fullstop + normali + name + normalii;
+        String normalfullii = eightbii + fullstop + normali + name + normalii;
+        String normalfulliii = eightbii + fullstop + normali + name + normalii;
+        String normalfulliv = eightbii + fullstop + normali + name + normalii;
         System.out.println(q8bfull);	
-	if (namealvin){
-		System.out.println(legendfull);
-	} else{
-		System.out.println(normalfull);
-	}
-
+        if(name == myFriends[0]){
+        System.out.println(legendfulli);
+        } else{
+        System.out.println(normalfulli);
+        }
+        if(name == myFriends[1]){
+         System.out.println(legendfullii);
+        } else{
+        System.out.println(normalfullii);
+        }
+        if(name == myFriends[2]){
+        System.out.println(legendfulliii);
+        } else{
+        System.out.println(normalfulliii);
+        }
+        if(name == myFriends[3]){
+        System.out.println(legendfulliv);
+        } else{
+        System.out.println(normalfulliv);
+        }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
