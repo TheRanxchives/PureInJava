@@ -7,11 +7,11 @@ public class Main {
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
           String[] myNumeralsii = {"vii","viii","ix","x","xi","xii"};
           String fullstop = ".";
-          // 1 
+          // 1
           String one = myNums[0];
           // (a)
           String a = myLets[0];
-          String onea = one + a; 
+          String onea = one + a;
           // (b)
           String b = myLets[1];
           String oneb = one + b;
@@ -39,7 +39,7 @@ public class Main {
           String fivebb = five + fiveb;
           String fivebi = fivebb + fiveone;
           String fivebii = fivebb + fivetwo;
-          // 6 
+          // 6
           // (a)
           String six = myNums[5];
           String sixa = myLets[0];
@@ -137,6 +137,15 @@ public class Main {
           String ninebviib = ninebb + ninevii + nineb;
           String ninebviiia = ninebb + nineviii + ninea;
           String ninebviiib = ninebb + nineviii + nineb;
+          // 10
+          String ten = myNums[9];
+          String teni = myNumerals[0];
+          String tenii = myNumerals[1];
+          // i & ii
+          String tenone = ten + teni;
+          String tentwo = ten + tenii;
+          // 11
+          String eleven = myNumsii[0];
           // integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -327,7 +336,7 @@ public class Main {
         String normalfullb = eightbiib + fullstop + normali + name + normalii;
         String normalfullc = eightbiiia + fullstop + normali + name + normalii;
         String normalfulld = eightbiiib + fullstop + normali + name + normalii;
-        System.out.println(q8bfull);	
+        System.out.println(q8bfull);
         if(name == myFriends[0]){
         System.out.println(legendfulla);
         } else{
@@ -395,7 +404,6 @@ public class Main {
        System.out.println(ans9iiibfull);
        System.out.println(ans9ivafull);
        System.out.println(ans9ivbfull);
-       System.out.println(ans9vafull);
        System.out.println(ans9vbfull);
        System.out.println(ans9viafull);
        System.out.println(ans9vibfull);
@@ -403,6 +411,14 @@ public class Main {
        System.out.println(ans9viibfull);
        System.out.println(ans9viiiafull);
        System.out.println(ans9viiibfull);
+       System.out.println(ans9vafull);
+       // 10
+       String q10 = "What is a random number in the myNumberArray[], you may choose.";
+       int ans10 = myNumberArray[11];
+       String q10full = tenone + fullstop + q10;
+       String ans10full = tentwo + fullstop + ans10;
+       System.out.println(q10full);
+       System.out.println(ans10full);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
