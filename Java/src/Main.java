@@ -146,7 +146,16 @@ public class Main {
           String tentwo = ten + tenii;
           // 11
           String eleven = myNumsii[0];
-          // integers : 1
+	  String eleveni = myNumerals[0];
+	  String elevenii = myNumerals[1];
+	  String eleveniii = myNumerals[2];
+	  String eleveniv = myNumerals[3];
+	  // i & ii
+	  String elevenone = eleven + eleveni;
+	  String eleventwo = eleven + elevenii;
+	  String eleventhree = eleven + eleveniii;
+	  String elevenfour = eleven + eleveniv;
+	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
           int mPh = 60;
@@ -419,6 +428,33 @@ public class Main {
        String ans10full = tentwo + fullstop + ans10;
        System.out.println(q10full);
        System.out.println(ans10full);
+       // 11
+       int x = 0;
+       int y = 6;
+       int z = x * y;
+       String statement11 = "(STATEMENT) When I had this idea, I was in class learning about Flow-Charts. Had to make some changes so, enjoy my implementations!";
+       String q11 = "Make a program that asks the user to divide x by y and if the result is less than 5 then refuse to divide";
+       String ans11i = "You cannot multiply a number under 5";
+       String ans11ii = "Your number has been mutiplied: ";
+       String ans11iif = ans11ii + z;
+       String statement11full = elevenone + fullstop + statement11;
+       String q11full = eleventwo + fullstop + q11;
+       String ans11ifull = eleventhree + fullstop + ans11i;
+       String ans11iifull = elevenfour + fullstop + ans11i;
+       String ans11iiifull = eleventhree + fullstop + ans11iif;
+       String ans11ivfull = elevenfour + fullstop + ans11iif;
+       System.out.println(statement11full);
+       System.out.println(q11full);
+       if(x < 5){
+        System.out.println(ans11ifull);
+       } else {
+        System.out.println(ans11iiifull);
+       }       
+       if(y < 5){
+        System.out.println(ans11iifull);
+       } else {
+        System.out.println(ans11ivfull);
+       }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
