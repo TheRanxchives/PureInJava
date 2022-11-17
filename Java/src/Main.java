@@ -154,7 +154,18 @@ public class Main {
 	  String elevenone = eleven + eleveni;
 	  String eleventwo = eleven + elevenii;
 	  String eleventhree = eleven + eleveniii;
-	  String elevenfour = eleven + eleveniv;
+	  String elevenfour = eleven + eleveniv;          
+          // 12
+          String twelve = myNumsii[1];
+	  String twelvei = myNumerals[0];
+	  String twelveii = myNumerals[1];
+	  String twelveiii = myNumerals[2];
+	  String twelveiv = myNumerals[3];
+	  // i & ii
+	  String twelveone = twelve + twelvei;
+	  String twelvetwo = twelve + twelveii;
+	  String twelvethree = twelve + twelveiii;
+	  String twelvefour = twelve + twelveiv;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -454,7 +465,24 @@ public class Main {
         System.out.println(ans11iifull);
        } else {
         System.out.println(ans11ivfull);
-       }
+       }       
+       // 11
+       int xa = 0;
+       int ya = 6;
+       int za = xa + ya;
+       int aa = za / 2;
+       String statement12 = "(STATEMENT) When I had this idea, I was doing my Computer Science Homework, had to make some changes so, enjoy my implementations!";
+       String q12 = "Make a program that gets xa and ya and the sum is xa (x) + ya (y) = za (z) and the Average (aa (a)) = za (z) / 2";
+       String ans12i = "You have your average:";
+       String ans12ii = "You have your sum: ";
+       String statement12full = twelveone + fullstop + statement12;
+       String q12full = twelvetwo + fullstop + q12;
+       String ans12ifull = twelvethree + fullstop + ans12i + aa;
+       String ans12iifull = twelvefour + fullstop + ans12ii + za;
+       System.out.println(statement12full);
+       System.out.println(q12full);
+       System.out.println(ans12ifull);
+       System.out.println(ans12iifull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
