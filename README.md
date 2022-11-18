@@ -1,1 +1,2 @@
-# PureInJava
+# PureInJava (Ideas)
+
