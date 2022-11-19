@@ -166,6 +166,15 @@ public class Main {
 	  String twelvetwo = twelve + twelveii;
 	  String twelvethree = twelve + twelveiii;
 	  String twelvefour = twelve + twelveiv;
+          // 13
+          String thirteen = myNumsii[2];
+          String thirteeni = myNumerals[0];
+          String thirteenii = myNumerals[1];
+          String thirteeniii = myNumerals[2];
+	  // i & ii
+	  String thirteenone = thirteen + thirteeni;
+	  String thirteentwo = thirteen + thirteenii;
+	  String thirteenthree = thirteen + thirteeniii;         
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -483,6 +492,19 @@ public class Main {
        System.out.println(q12full);
        System.out.println(ans12ifull);
        System.out.println(ans12iifull);
+       // 13
+       int ab = 1;
+       int bb = 2;
+       int cc = ab + bb;
+       String statement13 = "(STATEMENT) I wasn't doing something when I got this idea, but I took 2 pseudo-codes (for next 7 questions) and turned it into java, had to make some changes so enjoy my implementations";
+       String q13 = "Make a program that adds a + b.";
+       String ans13 = "Your answer to a + b = c = ";
+       String statement13full = thirteenone + fullstop + statement13;
+       String q13full = thirteentwo + fullstop + q13;
+       String ans13full = thirteenthree + fullstop + ans13 + cc;
+       System.out.println(statement13full);
+       System.out.println(q13full);
+       System.out.println(ans13full);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
