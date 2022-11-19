@@ -515,7 +515,7 @@ public class Main {
        // 14
        String namea = "Alvin";
        String q14 = "Enter your name";
-       String ans14 = "Your name is: ";
+       String ans14 = "Your name is:";
        String q14full = fourteenone + fullstop + q14;
        String ans14full = fourteentwo + fullstop + ans14 + namea; 
        System.out.println(q14full);
@@ -525,7 +525,7 @@ public class Main {
           String showcodesi = "Show Code (";
           String showcodesii = ")";
           String helpout = "Help Out on Github! ";
-          String repo = "maranxlee/PureInJava (code)";
+          String repo = "maranxlee/PureInJava";
           String showcodesfull = helpout + repo;
           String showcodefull = showcodesi + showcode + showcodesii;
           System.out.println(showcodefull);
