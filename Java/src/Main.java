@@ -661,56 +661,64 @@ public class Main {
        }
        // 19
        String grades[] = {"A", "B","C","D","E"};
-       int mat = 100;
-       int eng = 100;
-       int art = 100;
-       int kis = 100;
-       int bio = 100;
-       int phy = 100;
-       int che = 100;
-       int bus = 100;
-       int cso = 100;
-       int his = 100;
-       int geo = 100;
+       String star = "*";
+       int mat = 96;
+       int eng = 90;
+       int art = 98;
+       int kis = 99;
+       int bio = 81;
+       int phy = 81;
+       int che = 82;
+       int bus = 99;
+       int csc = 100;
+       int his = 99;
+       int geo = 75;
        String grade1 = grades[0];
-       String grade2 = grades[1];
-       String grade3 = grades[2];
-       String grade4 = grades[3];
-       String grade5 = grades[4];
+       String grade1f = grade1 + star;
+       String grade2 = grades[0];
+       String grade3 = grades[1];
+       String grade4 = grades[2];
+       String grade5 = grades[3];
+       String grade6 = grades[4];
        int avi = 10;
-       int avii = mat + eng + kis + bio + phy + che + bus + art + cso + his + geo;
+       int avii = mat + eng + kis + bio + phy + che + bus + art + csc + his + geo;
        int aviii = avii / avi;
        String q19 = "Enter your name, And your Marks.";
        String nameab = "Maranx";
        String phrase1a = "Aaand, your average marks are:";
        String phrase1b = "And, your average means you got an:";
        String phrase1c = "Your marks combined are:";
-       String avphrase1 = greeting + nameab + space + phrase1c + space + avii + space + phrase1a + space + aviii + space + phrase1b + space + grade1;
+       String avphrase1 = greeting + nameab + space + phrase1c + space + avii + space + phrase1a + space + aviii + space + phrase1b + space + grade1f;
        String avphrase2 = greeting + nameab + space + phrase1c + space + avii + space + phrase1a + space + aviii + space + phrase1b + space + grade2;
        String avphrase3 = greeting + nameab + space + phrase1c + space + avii + space + phrase1a + space + aviii + space + phrase1b + space +  grade3;
        String avphrase4 = greeting + nameab + space + phrase1c + space + avii + space +  phrase1a + space + aviii + space + phrase1b + space +  grade4;
        String avphrase5 = greeting + nameab + space + phrase1c + space + avii + space +  phrase1a + space + aviii + space + phrase1b + space +  grade5;
+       String avphrase6 = greeting + nameab + space + phrase1c + space + avii + space +  phrase1a + space + aviii + space + phrase1b + space +  grade6;
        String q19f = nineteenone + fullstop + q19;
        String avphrase1f = nineteentwo + fullstop + avphrase1;
        String avphrase2f = nineteentwo + fullstop + avphrase2;
        String avphrase3f = nineteentwo + fullstop + avphrase3;
        String avphrase4f = nineteentwo + fullstop + avphrase4;
        String avphrase5f = nineteentwo + fullstop + avphrase5;
+       String avphrase6f = nineteentwo + fullstop + avphrase6;
        System.out.println(q19f);
-       if(aviii > 100){
+       if(aviii == 100){
         System.out.println(avphrase1f);
        }
-       if(avii < 70){
+       if(avii == 90){
         System.out.println(avphrase2f);
        }
-       if(avii <  60){
+       if(avii == 70){
         System.out.println(avphrase3f);
        }
-       if(avii < 50){
+       if(avii ==  60){
         System.out.println(avphrase4f);
        }
-       if(avii < 40){
+       if(avii == 50){
         System.out.println(avphrase5f);
+       }
+       if(avii == 40){
+        System.out.println(avphrase6f);
        }
           // Show Code
           boolean showcode = true;
