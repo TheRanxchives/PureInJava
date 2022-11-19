@@ -174,7 +174,6 @@ public class Main {
 	  // i & ii
 	  String thirteenone = thirteen + thirteeni;
 	  String thirteentwo = thirteen + thirteenii;
-<<<<<<< HEAD
 	  String thirteenthree = thirteen + thirteeniii;     
           // 14
           String fourteen = myNumsii[3];
@@ -183,9 +182,6 @@ public class Main {
 	  // i & ii
 	  String fourteenone = fourteen + fourteeni;
 	  String fourteentwo = fourteen + fourteenii; 
-=======
-	  String thirteenthree = thirteen + thirteeniii;         
->>>>>>> 5e8b1ce37af3ad534be0fe4fe5a1fd5856d50adf
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -516,7 +512,6 @@ public class Main {
        System.out.println(statement13full);
        System.out.println(q13full);
        System.out.println(ans13full);
-<<<<<<< HEAD
        // 14
        String namea = "Alvin";
        String q14 = "Enter your name";
@@ -525,8 +520,6 @@ public class Main {
        String ans14full = fourteentwo + fullstop + ans14 + namea; 
        System.out.println(q14full);
        System.out.println(ans14full);
-=======
->>>>>>> 5e8b1ce37af3ad534be0fe4fe5a1fd5856d50adf
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
