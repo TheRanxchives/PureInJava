@@ -206,6 +206,13 @@ public class Main {
           String fifteenci = fifteencc + fifteenone;
           String fifteencii = fifteencc + fifteentwo;
           String fifteendi = fifteendd + fifteenone;
+          // 16
+          String sixteen = myNumsii[5];
+          String sixteeni = myNumerals[0];
+          String sixteenii = myNumerals[1];
+          // i & ii
+          String sixteenone = sixteen + sixteeni;
+          String sixteentwo = sixteen + sixteenii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -567,6 +574,22 @@ public class Main {
        System.out.println(q15cfull); 
        System.out.println(ans15cfull); 
        System.out.println(ans15dfull); 
+       // 16
+       String q16 = "Enter your marks!";
+       int marks = 100;
+       String phrasei = "Your marks are";
+       String phraseii = "And you:";
+       String phraseiii = "PASSED";
+       String phraseiv = "FAILED";
+       String q16full = sixteenone + fullstop + q16;
+       String passedfull = sixteentwo + fullstop + phrasei + space + marks + space + phraseii + space + phraseiii;
+       String failedfull = sixteentwo + fullstop + phrasei + space + marks + space + phraseii + space + phraseiv;
+       System.out.println(q16full);
+       if (marks > 50){
+       System.out.println(passedfull);
+       } else {
+       System.out.println(failedfull);
+       }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
