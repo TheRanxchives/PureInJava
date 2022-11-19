@@ -220,6 +220,13 @@ public class Main {
           // i & ii
           String seventeenone = seventeen + seventeeni;
           String seventeentwo = seventeen + seventeenii;
+          // 18
+          String eighteen = myNumsii[7];
+          String eighteeni = myNumerals[0];
+          String eighteenii = myNumerals[1];
+          // i & ii
+          String eighteenone = eighteen + eighteeni;
+          String eighteentwo = eighteen + eighteenii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -613,6 +620,37 @@ public class Main {
         System.out.println(errorfull);
        } else {
         System.out.println(ans17full);
+       }
+       // 18
+       int reward[] = {10000 , 5000, 2500};
+       int position[] = {1, 2, 3};
+       int pos1 = position[0]; 
+       int pos2 = position[1]; 
+       int pos3 = position[2]; 
+       int rew1 = reward[0];
+       int rew2 = reward[1];
+       int rew3 = reward[2];
+       int athpos = pos1;
+       String q18 = "What is your name and position?";
+       String nameaaa = "AC";
+       String phrase1 = "You were no.";
+       String phrase2 = "Congratulations, your reward is:";
+       String pos1phrase = greeting + nameaaa + space + phrase1 + space + pos1 + space + phrase2 + rew1;
+       String pos2phrase = greeting + nameaaa + space + phrase1 + space + pos2 + space + phrase2 + rew2;
+       String pos3phrase = greeting + nameaaa + space + phrase1 + space + pos3 + space + phrase2 + rew3;
+       String q18full = eighteenone + fullstop + q18;
+       String posphrase1f = eighteentwo + fullstop + pos1phrase;
+       String posphrase2f = eighteentwo + fullstop + pos2phrase;
+       String posphrase3f = eighteentwo + fullstop + pos3phrase;
+       System.out.println(q18full);
+       if(athpos == pos1){
+        System.out.println(posphrase1f);
+       }       
+       if(athpos == pos2){
+        System.out.println(posphrase2f);
+       }       
+       if(athpos == pos3){
+        System.out.println(posphrase3f);
        }
           // Show Code
           boolean showcode = true;
