@@ -3,10 +3,11 @@ public class Main {
           // Letters and Numbers String
           String[] myNums = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
           String[] myNumsii = {"11", "12", "13", "14", "15", "16", "17", "18", "19", "20"};
-          String[] myLets = {"a", "b"};
+          String[] myLets = {"a", "b", "c" , "d"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
           String[] myNumeralsii = {"vii","viii","ix","x","xi","xii"};
           String fullstop = ".";
+          String space = " ";
           // 1
           String one = myNums[0];
           // (a)
@@ -182,6 +183,29 @@ public class Main {
 	  // i & ii
 	  String fourteenone = fourteen + fourteeni;
 	  String fourteentwo = fourteen + fourteenii; 
+          // 15
+          String fifteen = myNumsii[4];
+          String fifteena = myLets[0];
+          String fifteenb = myLets[1];
+          String fifteenc = myLets[2];
+          String fifteend = myLets[3];
+          String fifteeni = myNumerals[0];
+          String fifteenii = myNumerals[1];
+          // a, b, c ( i & ii)
+          String fifteenaa = fifteen + fifteena;
+          String fifteenbb = fifteen + fifteenb;
+          String fifteencc = fifteen + fifteenc;
+          String fifteendd = fifteen + fifteend;
+          String fifteenone =  fifteeni;
+          String fifteentwo =  fifteenii;
+          // Conjugated Version - a, b, c (i & ii)
+          String fifteenai = fifteenaa + fifteenone;
+          String fifteenaii = fifteenaa + fifteentwo;
+          String fifteenbi = fifteenbb + fifteenone;
+          String fifteenbii = fifteenbb + fifteentwo;
+          String fifteenci = fifteencc + fifteenone;
+          String fifteencii = fifteencc + fifteentwo;
+          String fifteendi = fifteendd + fifteenone;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -520,6 +544,29 @@ public class Main {
        String ans14full = fourteentwo + fullstop + ans14 + namea; 
        System.out.println(q14full);
        System.out.println(ans14full);
+       // 15
+       String nameaa = "Alvin";
+       String namebb = "Maranx";
+       String namecc = "II";
+       String q15a = "What is your first-name";
+       String q15b = "What is your second-name";
+       String q15c = "What is your third-name";
+       String q15d = "Your full name is:";
+       String q15de = q15d + space + nameaa + space + namebb + space + namecc;
+       String q15afull = fifteenai + fullstop + q15a;
+       String q15bfull = fifteenbi + fullstop + q15b;
+       String q15cfull = fifteenci + fullstop + q15c;
+       String ans15afull = fifteenaii + fullstop + nameaa; 
+       String ans15bfull = fifteenbii + fullstop + namebb; 
+       String ans15cfull = fifteencii + fullstop + namecc;
+       String ans15dfull = fifteendi + fullstop + q15de;
+       System.out.println(q15afull); 
+       System.out.println(ans15afull); 
+       System.out.println(q15bfull); 
+       System.out.println(ans15bfull); 
+       System.out.println(q15cfull); 
+       System.out.println(ans15cfull); 
+       System.out.println(ans15dfull); 
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code (";
