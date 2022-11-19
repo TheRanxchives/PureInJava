@@ -213,6 +213,13 @@ public class Main {
           // i & ii
           String sixteenone = sixteen + sixteeni;
           String sixteentwo = sixteen + sixteenii;
+          // 17
+          String seventeen = myNumsii[6];
+          String seventeeni = myNumerals[0];
+          String seventeenii = myNumerals[1];
+          // i & ii
+          String seventeenone = seventeen + seventeeni;
+          String seventeentwo = seventeen + seventeenii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -589,6 +596,23 @@ public class Main {
        System.out.println(passedfull);
        } else {
        System.out.println(failedfull);
+       }
+       // 17
+       int xx = 256;
+       int yy = 2;
+       int quotient = xx / yy;
+       String q17 = "Enter two numbers!";
+       String error = "Error, Cannot divide under 5";
+       String ans17 = "The answer is:";
+       String ans17f = ans17 + quotient;
+       String q17full = seventeenone + fullstop + q17;
+       String errorfull = seventeentwo + fullstop + error;
+       String ans17full = seventeentwo + fullstop + space + ans17f;
+       System.out.println(q17full);
+       if(quotient < 5){
+        System.out.println(errorfull);
+       } else {
+        System.out.println(ans17full);
        }
           // Show Code
           boolean showcode = true;
