@@ -246,7 +246,6 @@ public class Main {
           String twentyathree = twenty + twentyiii;
           /// 21 
           String twentyone = myNumsiii[0];
-          //20
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -737,6 +736,7 @@ public class Main {
        int spm = 60;
        int mph = 60;
        int hpd = 24;
+       int dpy = 365;
        int sph = spm * mph;
        int spd = sph * hpd;
        int userspd = 31536000;
@@ -750,7 +750,7 @@ public class Main {
        String convertediii = ")";
        String days = "days";
        String convertedf = greeting + nameac + converted + space + ans20 + space + days;
-       String overayearf = greeting + nameac + space + convertedii + ans20 + days + convertediii;
+       String overayearf = greeting + nameac + space + convertedii + ans20 + space + days + convertediii;
        String undererrorf = greeting + nameac + undererrori + space + undererrorii + space + userspd;
        String q20full = twentyaone + fullstop + q20;
        String convertedfull = twentyatwo + fullstop + convertedf;
@@ -762,7 +762,7 @@ public class Main {
        } else {
         System.out.println(convertedfull);
        }
-       if(userspd > 365){
+       if(userspd > dpy){
         System.out.println(overayearfull);
        }
           // Show Code
