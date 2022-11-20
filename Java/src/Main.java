@@ -3,6 +3,7 @@ public class Main {
           // Letters and Numbers String
           String[] myNums = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
           String[] myNumsii = {"11", "12", "13", "14", "15", "16", "17", "18", "19", "20"};
+          String[] myNumsiii = {"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"};
           String[] myLets = {"a", "b", "c" , "d"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
           String[] myNumeralsii = {"vii","viii","ix","x","xi","xii"};
@@ -234,6 +235,18 @@ public class Main {
           // i & ii
           String nineteenone = nineteen + nineteeni;
           String nineteentwo = nineteen + nineteenii;
+          // 20
+          String twenty = myNumsii[9];
+          String twentyi = myNumerals[0];
+          String twentyii = myNumerals[1];
+          String twentyiii = myNumerals[2];
+          // i & ii
+          String twentyaone = twenty + twentyi;
+          String twentyatwo = twenty + twentyii;
+          String twentyathree = twenty + twentyiii;
+          /// 21 
+          String twentyone = myNumsiii[0];
+          //20
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -719,6 +732,38 @@ public class Main {
        }
        if(avii == 40){
         System.out.println(avphrase6f);
+       }
+       // 20
+       int spm = 60;
+       int mph = 60;
+       int hpd = 24;
+       int sph = spm * mph;
+       int spd = sph * hpd;
+       int userspd = 31536000;
+       int ans20 = userspd / spd;
+       String q20 = "Please enter the amount of seconds, and name - and we will convert into days";
+       String nameac = "Maranx";
+       String undererrori = ", cannot convert to days, if under 86400.";
+       String undererrorii = "You entered:";
+       String converted = ", we were able to convert your seconds to days, and the answer was:";
+       String convertedii = "We found that your answer that is shown above is Over a year (";
+       String convertediii = ")";
+       String days = "days";
+       String convertedf = greeting + nameac + converted + space + ans20 + space + days;
+       String overayearf = greeting + nameac + space + convertedii + ans20 + days + convertediii;
+       String undererrorf = greeting + nameac + undererrori + space + undererrorii + space + userspd;
+       String q20full = twentyaone + fullstop + q20;
+       String convertedfull = twentyatwo + fullstop + convertedf;
+       String undererrorfull = twentyatwo + fullstop + undererrorf;
+       String overayearfull = twentyathree + fullstop + overayearf;
+       System.out.println(q20full);
+       if (userspd < spd){
+        System.out.println(undererrorfull);
+       } else {
+        System.out.println(convertedfull);
+       }
+       if(userspd > 365){
+        System.out.println(overayearfull);
        }
           // Show Code
           boolean showcode = true;
