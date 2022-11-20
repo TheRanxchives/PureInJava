@@ -767,12 +767,15 @@ public class Main {
        }
           // Show Code
           boolean showcode = true;
-          String showcodesi = "Show Code (";
+          String showcodesi = "Show Code";
+          String showcodesiii = "(";
+          String code = "code";
           String showcodesii = ")";
           String helpout = "Help Out on Github! ";
           String repo = "maranxlee/PureInJava";
-          String showcodesfull = helpout + repo;
-          String showcodefull = showcodesi + showcode + showcodesii;
+          String codef = showcodesiii + code + showcodesii;
+          String showcodesfull = helpout + repo + codef;
+          String showcodefull = showcodesi + showcodesiii + showcode + showcodesii;
           System.out.println(showcodefull);
           if (showcode){
           System.out.println(showcodesfull);
