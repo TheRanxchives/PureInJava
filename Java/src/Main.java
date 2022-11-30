@@ -1,6 +1,6 @@
 public class Main {
         public static void main(String[] args) {
-          // Letters and Numbers String
+          // Letters, Numerals, Characters and Numbers String
           String[] myNums = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
           String[] myNumsii = {"11", "12", "13", "14", "15", "16", "17", "18", "19", "20"};
           String[] myNumsiii = {"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"};
@@ -244,8 +244,13 @@ public class Main {
           String twentyaone = twenty + twentyi;
           String twentyatwo = twenty + twentyii;
           String twentyathree = twenty + twentyiii;
-          /// 21 
+          // 21
           String twentyone = myNumsiii[0];
+          String twentyonei = myNumerals[0];
+          String twentyoneii = myNumerals[1];
+          // i & ii
+          String twentybone = twentyone + twentyonei;
+          String twentybtwo = twentyone + twentyoneii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -765,6 +770,16 @@ public class Main {
        if(userspd > dpy){
         System.out.println(overayearfull);
        }
+       // 21
+       int teacher = 60;
+       int students = 200;
+       int ratio = students / teacher;
+       String q21 = "Input how many teachers and students are in your school!";
+       String rans = "The ratio of children to teachers is:";
+       String q21full = twentybone + fullstop + space + q21;
+       String ransfull = twentybtwo + fullstop + space + rans + space + ratio;
+       System.out.println(q21full);
+       System.out.println(ransfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
