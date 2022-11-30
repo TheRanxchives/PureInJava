@@ -251,6 +251,22 @@ public class Main {
           // i & ii
           String twentybone = twentyone + twentyonei;
           String twentybtwo = twentyone + twentyoneii;
+          // 22
+          String twentytwo = myNumsiii[1];
+          String twentytwoi = myNumerals[0];
+          String twentytwoii = myNumerals[1];
+          String twentytwoiii = myNumerals[2];
+          // i & ii
+          String twentycone = twentytwo + twentytwoi;
+          String twentyctwo = twentytwo + twentytwoii;
+          String twentycthree = twentytwo + twentytwoiii;
+          // 23
+          String twentythree = myNumsiii[2];
+          String twentythreei = myNumerals[0];
+          String twentythreeii = myNumerals[1];
+          // i & ii
+          String twentydone = twentythree + twentythreei;
+          String twentydtwo = twentythree + twentythreeii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -776,10 +792,52 @@ public class Main {
        int ratio = students / teacher;
        String q21 = "Input how many teachers and students are in your school!";
        String rans = "The ratio of children to teachers is:";
-       String q21full = twentybone + fullstop + space + q21;
-       String ransfull = twentybtwo + fullstop + space + rans + space + ratio;
+       String q21full = twentybone + fullstop + q21;
+       String ransfull = twentybtwo + fullstop + rans + space + ratio;
        System.out.println(q21full);
        System.out.println(ransfull);
+       // 22
+       String nameca = "Maranx,";
+       int age = 20;
+       int maxage = 70;
+       String agen = "age:";
+       String fine = "You are aged to perfection";
+       String spring = "You are a spring chicken";
+       String q22 = "Please enter your name and your age?";
+       String q22i = "(";
+       String q22ii = ")";
+       String statement22 = "This was taken by BBC's Bitesize, in the form of a flow-chart. Enjoy your implementation";
+       String finefull = twentycthree + fullstop + greeting + space + nameca + space + fine + space + q22i + agen + space + age + q22ii;
+       String springfull = twentycthree + fullstop + greeting + space + nameca + space + spring + space + q22i + agen + space + age + q22ii;
+       String q22full = twentyctwo + fullstop + space + q22;
+       String statement22full = twentycone + fullstop + space + statement22;
+       System.out.println(statement22full);
+       System.out.println(q22full);
+       if(age > maxage){
+        System.out.println(finefull);
+       } else{
+        System.out.println(springfull);
+       }
+       // 23
+       String q23 = "Input A and B, and you will get whether the result is over or under 50";
+       String over50 = "Result over 50";
+       String lessthan50 = "Result less than 50";
+       String num = "Number:";
+       int ac = 25;
+       int ad = 26;
+       int ae = ac + ad;
+       int over = 50;
+       String q23i = "(";
+       String q23ii = ")";
+       String q23full = twentydone + fullstop + q23;
+       String over50full = twentydtwo + fullstop + over50 + space + q23i + num + ae + space + q23ii;
+       String lessthan50full = twentydtwo + fullstop + lessthan50 + space + q23i + space + num + space + ae + q23ii;
+       System.out.println(q23full);
+       if(ae > over){
+        System.out.println(over50full);
+       }else{
+       System.out.println(lessthan50full);
+        }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
