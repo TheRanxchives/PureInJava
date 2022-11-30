@@ -1,0 +1,9 @@
+  int teacher = 60;
+  int students = 200;
+  int ratio = students / teacher;
+  String q21 = "Input how many teachers and students are in your school!";
+  String rans = "The ratio of children to teachers is:";
+  String q21full = twentybone + fullstop + space + q21;
+  String ransfull = twentybtwo + fullstop + space + rans + space + ratio;
+  System.out.println(q21full);
+  System.out.println(ransfull);
