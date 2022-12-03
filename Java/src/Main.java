@@ -849,7 +849,7 @@ public class Main {
         }
        // 24
        String q24bstatement = "(STATEMENT) These numbers are all randomly generated, and we kinda had to be smart with integer-limit. But we made it, Enjoy!";
-       String q24 = "To see how much the (randomated) school makes per term, enter how many children are in your school, (be specific about classification) and we will count everything including caution.";
+       String q24 = "To see how much the (randomized) school makes per term, enter how many children are in the (randomized) school, (be specific about classification) and we will count everything including caution.";
        String q24anstatement = "The answer is:";
        String perterm = "per term.";
        String q24full = twentyetwo + fullstop  + q24;
@@ -998,7 +998,7 @@ public class Main {
        int kncans = knstu * kncfull;
        int montans = monstu * montefull;
        int feeans = montans + bncans + kncans;
-       int q24ans =  feeans / bill ;
+       int q24ans =  feeans / bill;
        String q24ansfull = twentyethree + fullstop + q24anstatement + space + q24ans + letterb + space + perterm;
        System.out.println(q24statementfull);
        System.out.println(q24full);
