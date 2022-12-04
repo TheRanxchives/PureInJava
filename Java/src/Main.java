@@ -283,6 +283,13 @@ public class Main {
           // i & ii
           String twentyfone = twentyfive + twentyfivei;
           String twentyftwo = twentyfive + twentyfiveii;
+          // 26
+          String twentysix = myNumsiii[5];
+          String twentysixi = myNumerals[0];
+          String twentysixii = myNumerals[1];
+          // i & ii
+          String twentygone = twentysix + twentysixi;
+          String twentygtwo = twentysix + twentysixii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1020,6 +1027,16 @@ public class Main {
          String q25ansfull = twentyftwo + fullstop + q25state + space + q25ans;
          System.out.println(q25full);
          System.out.println(q25ansfull);
+	// 26
+	String q26 = "Enter two numbers and we will subtract them.";
+	String q26state = "The answer is:"; 
+	int ag = 1200;
+	int bg = 900;
+	int q26ans = ag - bg;
+	String q26full = twentygone + fullstop + q26;
+	String q26ansfull = twentygtwo + fullstop + q26state + space + q26ans;
+        System.out.println(q26full);
+        System.out.println(q26ansfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
