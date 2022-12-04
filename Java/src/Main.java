@@ -296,6 +296,13 @@ public class Main {
           // i & ii
           String twentyhone = twentyseven + twentyseveni;
           String twentyhtwo = twentyseven + twentyseveni;
+          // 28
+          String twentyeight = myNumsiii[7];
+          String twentyeighti = myNumerals[0];
+          String twentyeightii = myNumerals[1];
+          // i & ii
+          String twentyione = twentyeight + twentyeighti;
+          String twentyitwo = twentyeight + twentyeightii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1064,6 +1071,26 @@ public class Main {
 	} else{
              System.out.println(minorfull);
         }
+        // 28
+       String namecb = "Maranx,";
+       int ageii = 21;
+       int minage = 20;
+       String ageniii = "age:";
+       String minorii = "Minor";
+       String adultii = "Adult";
+       String q28statement = "You are a:";
+       String q28 = "Please enter your name and your age?";
+       String q28i = "(";
+       String q28ii = ")";
+       String minoriifull = twentyitwo + fullstop + greeting + space + namecb + space + q28statement + space +  minorii + space + q28i + ageniii + space + ageii + q28ii;
+       String adultiifull = twentyitwo + fullstop + greeting + space + namecb + space + q28statement + space + adultii + space + q28i + ageniii  + space + ageii + q28ii;
+       String q28full = twentyione + fullstop + space + q28; 
+       System.out.println(q28full);
+       if(ageii > minage){
+        System.out.println(adultiifull);
+       } else{
+        System.out.println(minoriifull);
+       }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
