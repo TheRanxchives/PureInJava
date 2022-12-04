@@ -290,6 +290,12 @@ public class Main {
           // i & ii
           String twentygone = twentysix + twentysixi;
           String twentygtwo = twentysix + twentysixii;
+          // 27
+          String twentyseven = myNumsiii[6];
+          String twentyseveni = myNumerals[0];
+          // i & ii
+          String twentyhone = twentyseven + twentyseveni;
+          String twentyhtwo = twentyseven + twentyseveni;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1037,6 +1043,27 @@ public class Main {
 	String q26ansfull = twentygtwo + fullstop + q26state + space + q26ans;
         System.out.println(q26full);
         System.out.println(q26ansfull);
+	// 27
+	int addage = 5;
+	int ageiii = 18;
+        int adage = 18;
+	int fullage = ageiii + addage;
+        String agenii = "age:";
+	String q27 =  "Enter your age and we will add 5 years and tell you the result";
+	String q27state = "You are a:";
+	String adult = "Adult";
+	String minor = "Minor";
+        String q27i = "(";
+        String q27ii = ")";
+	String q27full = twentyhone + fullstop + q27;
+        String adultfull = twentyhtwo + fullstop + q27state + space + adult + space + q27i + agenii + space + fullage +  q27ii;
+        String minorfull = twentyhtwo + fullstop + q27state + space + minor + space + q27i + agenii + space + fullage +  q27ii;
+        System.out.println(q27full);
+	if(fullage > adage){
+                System.out.println(adultfull);
+	} else{
+             System.out.println(minorfull);
+        }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
