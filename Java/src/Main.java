@@ -4,6 +4,7 @@ public class Main {
           String[] myNums = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
           String[] myNumsii = {"11", "12", "13", "14", "15", "16", "17", "18", "19", "20"};
           String[] myNumsiii = {"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"};
+          String[] myNumsiv = {"31", "32", "33", "34", "35", "36", "37", "38", "39", "40"};
           String[] myLets = {"a", "b", "c" , "d"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
           String[] myNumeralsii = {"vii","viii","ix","x","xi","xii"};
@@ -303,6 +304,46 @@ public class Main {
           // i & ii
           String twentyione = twentyeight + twentyeighti;
           String twentyitwo = twentyeight + twentyeightii;
+          // 29
+          String twentynine = myNumsiii[8];
+          String twentyninei = myNumerals[0];
+          String twentynineii = myNumerals[1];
+          String twentynineiii = myNumerals[2];
+          String twentynineiv = myNumerals[3];
+          String twentyninev = myNumerals[4];
+          // i & ii
+          String twentyjone = twentynine + twentyninei;
+          String twentyjtwo = twentynine + twentynineii;
+          String twentyjthree = twentynine + twentynineiii;
+          String twentyjfour = twentynine + twentynineiv;
+          String twentyjfive = twentynine + twentyninev;
+          // 30
+          String thirty = myNumsiii[9];
+          String thirtyi = myNumerals[0];
+          String thirtyii = myNumerals[1];
+          String thirtyiii = myNumerals[2];
+          String thirtyiv = myNumerals[3];
+          String thirtyv = myNumerals[4];
+          // i & ii
+          String thirtyaone = thirty + thirtyi;
+          String thirtyatwo = thirty + thirtyii;
+          String thirtyathree = thirty + thirtyiii;
+          String thirtyafour = thirty + thirtyiv;
+          String thirtyafive = thirty + thirtyv;
+          // 31
+          String thirtyone = myNumsiv[0];
+          String thirtyonei = myNumerals[0];
+          String thirtyoneii = myNumerals[1];
+          String thirtyoneiii = myNumerals[2];
+          String thirtyoneiv = myNumerals[3];
+          String thirtyonev = myNumerals[4];
+          // i & ii
+          String thirtybone = thirtyone + thirtyonei;
+          String thirtybtwo = thirtyone + thirtyoneii;
+          String thirtybthree = thirtyone + thirtyoneiii;
+          String thirtybfour = thirtyone + thirtyoneiv;
+          String thirtybfive = thirtyone + thirtyonev;
+	  // Integers : 1
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1091,6 +1132,63 @@ public class Main {
        } else{
         System.out.println(minoriifull);
        }
+       // 29
+       boolean jajb = true;
+       boolean kamb = false;
+       boolean malb = false;
+       String statement29 = "Make an example of AND in Computer Science";
+       String q29 = "Are these booleans true or false?";
+       String jaj = "Jane and Jake";
+       String kam = "Ken and Micheal";
+       String mal = "Mitchell and Lena";
+       String statement29full = twentyjone + fullstop + statement29;
+       String q29full = twentyjtwo + fullstop + q29;
+       String jajfull = twentyjthree + fullstop + jaj + space + jajb;
+       String kamfull = twentyjfour + fullstop + kam + space + kamb;
+       String malfull = twentyjfive + fullstop + mal + space + malb;
+       System.out.println(statement29full);
+       System.out.println(q29full);
+       System.out.println(jajfull);
+       System.out.println(kamfull);
+       System.out.println(malfull);
+       // 30
+       boolean jajbb = true;
+       boolean kambb = false;
+       boolean malbb = false;
+       String statement30 = "Make an example of OR in Computer Science";
+       String q30 = "Are these booleans true or false?";
+       String jaja = "Jane and Jake";
+       String kama = "Ken and Micheal";
+       String mala = "Mitchell and Lena";
+       String statement30full = thirtyaone + fullstop + statement30;
+       String q30full = thirtyatwo + fullstop + q30;
+       String jajafull = thirtyathree + fullstop + jaja + space + jajbb;
+       String kamafull = thirtyafour + fullstop + kama + space + kambb;
+       String malafull = thirtyafive + fullstop + mala + space + malbb;
+       System.out.println(statement30full);
+       System.out.println(q30full);
+       System.out.println(jajafull);
+       System.out.println(kamafull);
+       System.out.println(malafull);
+       // 31
+       boolean jajbc = false;
+       boolean kambc = true;
+       boolean malbc = true;
+       String statement31 = "Make an example of NOT in Computer Science";
+       String q31 = "Are these booleans true or false?";
+       String jajc = "Jane and Jake";
+       String kamc = "Ken and Micheal";
+       String malc = "Mitchell and Lena";
+       String statement31full = thirtybone + fullstop + statement31;
+       String q31full = thirtybtwo + fullstop + q31;
+       String jajbfull = thirtybthree + fullstop + jajc + space + jajbc;
+       String kambfull = thirtybfour + fullstop + kamc + space + kambc;
+       String malbfull = thirtybfive + fullstop + malc + space + malbc;
+       System.out.println(statement31full);
+       System.out.println(q31full);
+       System.out.println(jajbfull);
+       System.out.println(kambfull);
+       System.out.println(malbfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
