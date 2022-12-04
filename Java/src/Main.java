@@ -276,6 +276,13 @@ public class Main {
           String twentyeone = twentyfour + twentyfouri;
           String twentyetwo = twentyfour + twentyfourii;
           String twentyethree = twentyfour + twentyfouriii;
+          // 25
+          String twentyfive = myNumsiii[4];
+          String twentyfivei = myNumerals[0];
+          String twentyfiveii = myNumerals[1];
+          // i & ii
+          String twentyfone = twentyfive + twentyfivei;
+          String twentyftwo = twentyfive + twentyfiveii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1003,6 +1010,16 @@ public class Main {
        System.out.println(q24statementfull);
        System.out.println(q24full);
        System.out.println(q24ansfull);
+       	// 25
+	 String q25 = "Enter two numbers and we will mutiply them.";
+         String q25state = "The answer is:";
+         int af = 20;
+         int bf = 60;
+         int q25ans = af * bf;
+         String q25full = twentyfone + fullstop + q25;
+         String q25ansfull = twentyftwo + fullstop + q25state + space + q25ans;
+         System.out.println(q25full);
+         System.out.println(q25ansfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
