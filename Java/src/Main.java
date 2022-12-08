@@ -343,7 +343,22 @@ public class Main {
           String thirtybthree = thirtyone + thirtyoneiii;
           String thirtybfour = thirtyone + thirtyoneiv;
           String thirtybfive = thirtyone + thirtyonev;
-	  // Integers : 1
+          // 32
+          String thirtytwo = myNumsiv[1];
+          String thirtytwoi = myNumerals[0];
+          String thirtytwoii = myNumerals[1];
+          String thirtytwoiii = myNumerals[2];
+          // i & ii
+          String thirtycone = thirtytwo + thirtytwoi;
+          String thirtyctwo = thirtytwo + thirtytwoii;
+          String thirtycthree = thirtytwo + thirtytwoiii;
+          // 33
+          String thirtythree = myNumsiv[2];
+          String thirtythreei = myNumerals[0];
+          String thirtythreeii = myNumerals[1];
+          // i & ii
+          String thirtydone = thirtythree + thirtythreei;
+          String thirtydtwo = thirtythree + thirtythreeii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1066,7 +1081,8 @@ public class Main {
        int kncans = knstu * kncfull;
        int montans = monstu * montefull;
        int feeans = montans + bncans + kncans;
-       int q24ans =  feeans / bill;
+       int pertermans =  feeans / bill;
+       int q24ans =  pertermans;
        String q24ansfull = twentyethree + fullstop + q24anstatement + space + q24ans + letterb + space + perterm;
        System.out.println(q24statementfull);
        System.out.println(q24full);
@@ -1189,6 +1205,35 @@ public class Main {
        System.out.println(jajbfull);
        System.out.println(kambfull);
        System.out.println(malbfull);
+       // 32
+       int staff = 60;
+       int tom = staff / pertermans;
+       String ki = "K";
+       String statement32 = "(STATEMENT) Since you had already inputed everything about the (randomized) school in Q24, We won't make you again for the following question(s)";
+       String q32 = "Please sit back as we use the information from the (randomized) school to make a teacher-to-money ratio";
+       String pertermii = "per term.";
+       String st32i = "If there are";
+       String st32ii = "teachers";
+       String st32iii = ", Then the TOM (teacher-to-money) ratio is:";
+       String statement32full = thirtycone + fullstop + statement32;
+       String q32full = thirtyctwo + fullstop + q32;
+       String q32ansfull = thirtycthree + fullstop + st32i + space + staff + space + st32ii + space + st32iii + space + tom + ki + space + pertermii;
+       System.out.println(statement32full);
+       System.out.println(q32full);
+       System.out.println(q32ansfull);
+       // 33
+       int studentsii = monstu + bnstu + knstu;
+       int som = studentsii / pertermans;
+       String kii = "K";
+       String q33 = "Please sit back as we use the information from the (randomized) school to make a student-to-money ratio";
+       String pertermiii = "per term.";
+       String st33i = "If there are";
+       String st33ii = "students";
+       String st33iii = ", Then the SOM (student-to-money) ratio is:";
+       String q33full = thirtydone + fullstop + q33;
+       String q33ansfull = thirtydtwo+ fullstop + st33i + space + studentsii + space + st33ii + space + st33iii + space + som  + kii + space + pertermiii;
+       System.out.println(q33full);
+       System.out.println(q33ansfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
