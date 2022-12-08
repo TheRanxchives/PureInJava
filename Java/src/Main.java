@@ -916,7 +916,7 @@ public class Main {
        System.out.println(lessthan50full);
         }
        // 24
-       String q24bstatement = "(STATEMENT) These numbers are all randomly generated, and we kinda had to be smart with integer-limit. But we made it, Enjoy!";
+       String q24bstatement = "(STATEMENT) These numbers are all randomly generated, and i kinda had to be smart with integer-limit. But we made it, Enjoy!";
        String q24 = "To see how much the (randomized) school makes per term, enter how many children are in the (randomized) school, (be specific about classification) and we will count everything including caution.";
        String q24anstatement = "The answer is:";
        String perterm = "per term.";
