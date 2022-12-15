@@ -391,6 +391,23 @@ public class Main {
           String thirtygone = thirtysix + thirtysixi;
           String thirtygtwo = thirtysix + thirtysixii;
           String thirtygthree = thirtysix + thirtysixiii;
+          // 37
+          String thirtyseven = myNumsiv[6];
+          String thirtysevena = myLets[0];
+          String thirtysevenb = myLets[1];
+          String thirtyseveni = myNumerals[0];
+          String thirtysevenii = myNumerals[1];
+          String thirtyseveniii = myNumerals[2];
+          String thirtyseveniv = myNumerals[3];
+          //  (a & b) i & ii
+          String thirtyhaone =  thirtyseven + thirtysevena + thirtyseveni;
+          String thirtyhatwo = thirtyseven + thirtysevena + thirtysevenii;
+          String thirtyhathree = thirtyseven + thirtysevena + thirtyseveniii;
+          String thirtyhafour = thirtyseven + thirtysevena + thirtyseveniv;
+          String thirtyhbone =  thirtyseven + thirtysevenb + thirtyseveni;
+          String thirtyhbtwo = thirtyseven + thirtysevenb + thirtysevenii;
+          String thirtyhbthree = thirtyseven + thirtysevenb + thirtyseveniii;
+          String thirtyhbfour = thirtyseven + thirtysevenb + thirtyseveniv;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1360,7 +1377,32 @@ public class Main {
        System.out.println(q34cfull);
        System.out.println(q34dfull);
        System.out.println(q34efull);
-       System.out.println(q34ffull);
+       System.out.println(q34ffull);            
+       // 37
+       String q37a = "Find the lowest common multiple (LCM) of 6 and 9";
+       String line37i = "6 = 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72";
+       String line37ii = "9 = 9, 18, 27, 36, 45, 54, 63, 54, 72, 81, 90, 99, 108";
+       String ans37a = "= 18";
+       String q37afull = thirtyhaone + fullstop + q37a; 
+       String line37ifull = thirtyhatwo + fullstop + line37i; 
+       String line37iifull = thirtyhathree + fullstop  + line37ii; 
+       String ans37afull = thirtyhafour + fullstop  + space + ans37a; 
+       System.out.println(q37afull);
+       System.out.println(line37ifull);
+       System.out.println(line37iifull);
+       System.out.println(ans37afull);
+       String q37b = "Find the highest common factor (HCF) of 48 and 60";
+       String line37bi = "48 = 1, 2, 3, 4, 6, 8, 12";
+       String line37bii = "60 = 1, 2, 3, 4, 5, 10, 12";
+       String ans37b = "= 12";
+       String q37bfull = thirtyhbone + fullstop + q37b; 
+       String line37bifull = thirtyhbtwo + fullstop + line37bi; 
+       String line37biifull = thirtyhbthree + fullstop  + line37bii; 
+       String ans37bfull = thirtyhbfour + fullstop  + space + ans37b; 
+       System.out.println(q37bfull);
+       System.out.println(line37bifull);
+       System.out.println(line37biifull);
+       System.out.println(ans37bfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
