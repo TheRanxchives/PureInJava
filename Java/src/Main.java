@@ -359,6 +359,22 @@ public class Main {
           // i & ii
           String thirtydone = thirtythree + thirtythreei;
           String thirtydtwo = thirtythree + thirtythreeii;
+          // 34
+          String thirtyfour = myNumsiv[3];
+          String thirtyfouri = myNumerals[0];
+          String thirtyfourii = myNumerals[1];
+          String thirtyfoura = myLets[0];
+          String thirtyfourb = myLets[1];
+          String thirtyfourc = myLets[2];
+          // i & ii
+          String thirtyeonea = thirtyfour + thirtyfouri;
+          String thirtyeoneb = thirtyfour + thirtyfourii;
+          String thirtyeonei = thirtyfour + thirtyfoura + thirtyfouri;
+          String thirtyetwoi = thirtyfour + thirtyfoura + thirtyfourii;          
+          String thirtyeoneii = thirtyfour + thirtyfourb + thirtyfouri;          
+          String thirtyetwoii = thirtyfour + thirtyfourb + thirtyfourii;          
+          String thirtyeoneiii = thirtyfour + thirtyfourc + thirtyfouri; 
+          String thirtyetwoiii = thirtyfour + thirtyfourc + thirtyfourii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1234,6 +1250,49 @@ public class Main {
        String q33ansfull = thirtydtwo+ fullstop + st33i + space + studentsii + space + st33ii + space + st33iii + space + som  + kii + space + pertermiii;
        System.out.println(q33full);
        System.out.println(q33ansfull);
+       // 34
+       String statement34 = "(STATEMENT) The following questions were taken from (MA-S7MYTU1T8)";
+       String  q34 = "Fill in the missing numbers.";
+       String statement34full = thirtyeonea + fullstop + statement34;
+       String q34full = thirtyeoneb + fullstop + q34;
+       String equal = "=";
+       String  q34a = "10 + -8";
+       int ai = 10;
+       int aii = -8;
+       int afull = ai + aii;
+       String q34afull = thirtyeonei + fullstop + q34a + space + equal + space + afull;
+       String  q34b = "-9 + 12";
+       int bi = -9;
+       int bii = 12;
+       int bfull = bi + bii;
+       String q34bfull = thirtyetwoi + fullstop + q34b + space + equal + space + bfull;
+       String  q34c = "4 * -5";
+       int ci = 4;
+       int cii = -5;
+       int cfull = ci * cii;
+       String q34cfull = thirtyeoneii + fullstop + q34c + space + equal + space + cfull;
+       String  q34d = "-45 / 9";
+       int di = -45;
+       int dii = 9;
+       int dfull = di / dii;
+       String q34dfull = thirtyetwoii + fullstop + q34d + space + equal + space + dfull;
+       String  q34e = "4^3";
+       int ei = 4;
+       int efull = ei * ei * ei;
+       String q34efull = thirtyeoneiii + fullstop + q34e + space + equal + space + efull;
+       String  q34f =" √81";
+       int fi = 81;
+       int fii = 9;
+       int ffull = fi / fii;
+       String q34ffull = thirtyetwoiii + fullstop + q34f + space + equal + space + ffull;
+       System.out.println(statement34full);
+       System.out.println(q34full);
+       System.out.println(q34afull);
+       System.out.println(q34bfull);
+       System.out.println(q34cfull);
+       System.out.println(q34dfull);
+       System.out.println(q34efull);
+       System.out.println(q34ffull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
