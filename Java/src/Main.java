@@ -374,7 +374,23 @@ public class Main {
           String thirtyeoneii = thirtyfour + thirtyfourb + thirtyfouri;          
           String thirtyetwoii = thirtyfour + thirtyfourb + thirtyfourii;          
           String thirtyeoneiii = thirtyfour + thirtyfourc + thirtyfouri; 
-          String thirtyetwoiii = thirtyfour + thirtyfourc + thirtyfourii;
+          String thirtyetwoiii = thirtyfour + thirtyfourc + thirtyfourii;           
+          // 35
+          String thirtyfive = myNumsiv[4];
+          String thirtyfivei = myNumerals[0];
+          String thirtyfiveii = myNumerals[1];
+          // i & ii
+          String thirtyfone = thirtyfive + thirtyfivei;
+          String thirtyftwo = thirtyfive + thirtyfiveii;
+          // 36
+          String thirtysix = myNumsiv[5];
+          String thirtysixi = myNumerals[0];
+          String thirtysixii = myNumerals[1];
+          String thirtysixiii = myNumerals[2];
+          // i & ii
+          String thirtygone = thirtysix + thirtysixi;
+          String thirtygtwo = thirtysix + thirtysixii;
+          String thirtygthree = thirtysix + thirtysixiii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1285,6 +1301,58 @@ public class Main {
        int fii = 9;
        int ffull = fi / fii;
        String q34ffull = thirtyetwoiii + fullstop + q34f + space + equal + space + ffull;
+       // 35
+       int subtractage = 5;
+       int ageiv = 18;
+           int adageii = 18;
+       int fullageii = ageiv - subtractage;
+           String ageniv = "age:";
+       String q35 =  "Enter your age and we will subtract 5 years and tell you the result";
+       String q35state = "You are a:";
+       String adulti = "Adult";
+       String minori = "Minor";
+           String q35i = "(";
+           String q35ii = ")";
+       String q35full = thirtyfone + fullstop + q35;
+           String adultfulli = thirtyftwo + fullstop + q35state + space + adulti + space + q35i + ageniv + space + fullageii +  q35ii;
+           String minorfulli = thirtyftwo + fullstop + q35state + space + minori + space + q35i + ageniv + space + fullageii +  q35ii;
+           System.out.println(q35full);
+       if(fullage < adageii){
+                   System.out.println(adultfulli);
+       } else{
+                   System.out.println(minorfulli);
+              }
+           // 36
+               String statement36 = "(STATEMENT) While I am taking a break from what is currently being done, I got this good idea from my Computer Science Exam, Enjoy my Implentations";
+               String q36 = "Please enter the first letter of your gender";
+               String gender = "M";
+               String stateii = "You are a:";
+               String male = "Male";
+               String female = "Female";
+               String other = "Other";
+               String stateiii = "(";
+               String stateiv = ")";
+               String statement36full = thirtygone + statement36;
+               String q36full =  thirtygtwo + fullstop + q36;
+               String malefull = thirtygthree  + fullstop +  stateii + male + stateiii + gender + stateiv;
+               String femalefull = thirtygthree + fullstop +   stateii + female + stateiii + gender + stateiv;
+               String otherfull =  thirtygthree  + fullstop + stateii + other + stateiii + gender + stateiv;
+               System.out.println(statement36full);
+               System.out.println(q36full);
+               if (gender == "M"){
+               System.out.println(malefull);
+               } else{
+                   
+               }
+               if (gender == "F"){
+               System.out.println(femalefull);
+               } else{
+               }
+               if (gender == "O"){
+               System.out.println(otherfull);
+               } else{
+                   
+               }
        System.out.println(statement34full);
        System.out.println(q34full);
        System.out.println(q34afull);
