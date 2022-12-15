@@ -408,6 +408,29 @@ public class Main {
           String thirtyhbtwo = thirtyseven + thirtysevenb + thirtysevenii;
           String thirtyhbthree = thirtyseven + thirtysevenb + thirtyseveniii;
           String thirtyhbfour = thirtyseven + thirtysevenb + thirtyseveniv;
+          // 38
+          String thirtyeight = myNumsiv[7];
+          String thirtyeighta = myLets[0];
+          String thirtyeightb = myLets[1];
+          String thirtyeighti = myNumerals[0];
+          String thirtyeightii = myNumerals[1];
+          // i & ii
+          String thirtyiaone = thirtyeight + thirtyeighta + thirtyeighti;
+          String thirtyiatwo = thirtyeight + thirtyeighta + thirtyeightii;
+          String thirtyibone = thirtyeight + thirtyeightb + thirtyeighti;
+          String thirtyibtwo = thirtyeight + thirtyeightb + thirtyeightii;
+          // 39
+          String thirtynine = myNumsiv[7];
+          String thirtyninea = myLets[0];
+          String thirtynineb = myLets[1];
+          String thirtyninei = myNumerals[0];
+          String thirtynineii = myNumerals[1];
+          // i & ii
+          String thirtyjone = thirtynine;
+          String thirtyjaone = thirtynine + thirtyninea + thirtyninei;
+          String thirtyjatwo = thirtynine + thirtyninea + thirtynineii;
+          String thirtyjbone = thirtynine + thirtynineb + thirtyninei;
+          String thirtyjbtwo = thirtynine + thirtynineb + thirtynineii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1403,6 +1426,41 @@ public class Main {
        System.out.println(line37bifull);
        System.out.println(line37biifull);
        System.out.println(ans37bfull);
+       // 38
+       String q38a = "Show the inequality x>6 on the number line below";
+       String ans38a = "x>6";
+       String q38afull = thirtyiaone + fullstop + q38a;
+       String ans38afull = thirtyiatwo + fullstop + ans38a;
+       System.out.println(q38afull);
+       System.out.println(ans38afull);
+       String q38b = "For the inequality y < -2, write down the greatest integer that y could be";
+       String ans38b = "-3";
+       String q38bfull = thirtyibone + fullstop + q38b;
+       String ans38bfull = thirtyibtwo + fullstop + ans38b;
+       System.out.println(q38bfull);
+       System.out.println(ans38bfull);
+       // 39
+       String q39 = "Use the formula T = mg to answer these questions (Pick A, B or C)";
+       String q39full = thirtyjone + fullstop + q39;
+       System.out.println(q39full);
+       String q39a = "When m = 5 and g = 9, the value of T is";
+       int ma = 5;
+       int ga = 9;
+       int ta = ma * ga;
+       int ans39a = ta;
+       String q39afull = thirtyjaone + fullstop + q39a;
+       String ans39afull = thirtyjatwo + fullstop + ans39a;
+       System.out.println(q39afull);
+       System.out.println(ans39afull);
+       String q39b = "When m = 9 and T = 90, the value of g is";
+       int mb = 9;
+       int tb = 90;
+       int gb = tb / mb;
+       int ans39b = gb;
+       String q39bfull = thirtyjbone + fullstop + q39b;
+       String ans39bfull = thirtyjbtwo + fullstop + ans39b;
+       System.out.println(q39bfull);
+       System.out.println(ans39bfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
