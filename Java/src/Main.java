@@ -5,11 +5,16 @@ public class Main {
           String[] myNumsii = {"11", "12", "13", "14", "15", "16", "17", "18", "19", "20"};
           String[] myNumsiii = {"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"};
           String[] myNumsiv = {"31", "32", "33", "34", "35", "36", "37", "38", "39", "40"};
+          String[] myNumsv = {"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"};
           String[] myLets = {"a", "b", "c" , "d"};
+          String[] myLetsii = {"e", "f", "g" , "h"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
           String[] myNumeralsii = {"vii","viii","ix","x","xi","xii"};
           String fullstop = ".";
           String space = " ";
+          String bracketsi = "(";
+          String bracketsii = ")";
+          String equals = "=";
           // 1
           String one = myNums[0];
           // (a)
@@ -431,6 +436,65 @@ public class Main {
           String thirtyjatwo = thirtynine + thirtyninea + thirtynineii;
           String thirtyjbone = thirtynine + thirtynineb + thirtyninei;
           String thirtyjbtwo = thirtynine + thirtynineb + thirtynineii;
+          // 40
+          String fourty = myNumsiv[9];
+          String fourtya = myLets[0];
+          String fourtyb = myLets[1];
+          String fourtyi = myNumerals[0];
+          String fourtyii = myNumerals[1];
+          // i & ii
+          String fourtyaone = fourty;
+          String fourtyoneone = fourty + fourtya + fourtyi;
+          String fourtyonetwo = fourty + fourtya + fourtyii;
+          String fourtyabone = fourty + fourtyb + fourtyi;
+          String fourtyabtwo = fourty + fourtyb + fourtyii;
+          // 41
+          String fourtyone = myNumsv[0];
+          String fourtyonea = myLets[0];
+          String fourtyoneb = myLets[1];
+          String fourtyonec = myLets[2];
+          // i & ii
+          String fourtybone = fourtyone;
+          String fourtybaone = fourtyone + fourtyonea;
+          String fourtybbone = fourtyone + fourtyoneb;
+          String fourtybcone = fourtyone + fourtyonec;
+          // 42
+          String fourtytwo = myNumsv[1];
+          String fourtytwoa = myLets[0];
+          String fourtytwob = myLets[1];
+          String fourtytwoi = myNumerals[0];
+          String fourtytwoii = myNumerals[1];
+          String fourtytwoiii = myNumerals[2];
+          // (a & b) i & ii
+          String fourtycone = fourtytwo + fourtytwoi;
+          String fourtyctwo = fourtytwo + fourtytwoii;
+          String fourtycaone = fourtytwo + fourtytwoa + fourtytwoi;
+          String fourtycatwo = fourtytwo + fourtytwoa + fourtytwoii;
+          String fourtycbone = fourtytwo + fourtytwob;
+          String fourtycbtwoi = fourtytwo + fourtytwob + fourtytwoi;
+          String fourtycbtwoii = fourtytwo + fourtytwob + fourtytwoii;
+          String fourtycbtwoiii = fourtytwo + fourtytwob + fourtytwoiii;
+          // 43
+          String fourtythree = myNumsv[2];
+          String fourtythreea = myLets[0];
+          String fourtythreeb = myLets[1];
+          String fourtythreec = myLets[2];
+          String fourtythreed = myLets[3];
+          String fourtythreee = myLetsii[0];
+          String fourtythreei = myNumerals[0];
+          String fourtythreeii = myNumerals[1];
+          // (a , b , c , d & e) i & ii
+          String fourtydone = fourtythree + fourtythreei;
+          String fourtydaone = fourtythree + fourtythreea + fourtythreei;
+          String fourtydatwo = fourtythree + fourtythreea + fourtythreeii;
+          String fourtydbone = fourtythree + fourtythreeb + fourtythreei;
+          String fourtydbtwo = fourtythree + fourtythreeb + fourtythreeii;
+          String fourtydcone = fourtythree + fourtythreec + fourtythreei;
+          String fourtydctwo = fourtythree + fourtythreec + fourtythreeii;
+          String fourtyddone = fourtythree + fourtythreed + fourtythreei;
+          String fourtyddtwo = fourtythree + fourtythreed + fourtythreeii;
+          String fourtydeone = fourtythree + fourtythreee + fourtythreei;
+          String fourtydetwo = fourtythree + fourtythreee + fourtythreeii;
 	  // Integers : 1
           int mPs = 1000;
           int sPm = 60;
@@ -1461,6 +1525,100 @@ public class Main {
        String ans39bfull = thirtyjbtwo + fullstop + ans39b;
        System.out.println(q39bfull);
        System.out.println(ans39bfull);
+       // 40
+       String q40 = "Simplify these expressions by collecting like terms";
+       String q40full = fourtyaone + fullstop + q40;
+       String q40a = "4c + 8c + 5d - d";
+       String q40afull = fourtyoneone + fullstop + q40a;
+       String ans40a = "12c + 4d";
+       String ans40afull = fourtyonetwo + fullstop + ans40a;
+       String q40b = "6xy + 2xz + 4yx - 9zx + 15";
+       String q40bfull = fourtyabone + fullstop + q40b;
+       String ans40b = "10xy - 11xz + 15";
+       String ans40bfull = fourtyabtwo + fullstop + ans40b;
+       System.out.println(q40full);
+       System.out.println(q40afull);
+       System.out.println(ans40afull);
+       System.out.println(q40bfull);
+       System.out.println(ans40bfull);
+       // 41
+       String q41 = "Kim expands the brackets 5(2x - 3) and gets the answer 10x- 3. Is Kim correct?";
+       String q41full = fourtybone + fullstop + q41;
+       String ans41a  = "Yes";
+       boolean ans41ab = false;
+       String ans41afull = fourtybaone + fullstop + ans41a + space + bracketsi + ans41ab  + bracketsii;
+       String ans41b = "No";
+       boolean ans41bb = true;
+       String ans41bfull = fourtybbone + fullstop + ans41b + space + bracketsi + ans41bb + bracketsii;
+       String ans41c = "10x - 15";
+       String ans41cfull = fourtybcone + fullstop + bracketsi + ans41c  + bracketsii;
+       System.out.println(q41full);
+       System.out.println(ans41afull);
+       System.out.println(ans41bfull);
+       System.out.println(ans41cfull);
+       // 42
+       String q42 = "The diagram shows the lengths of equals sides of an isoscelees triangle.";
+       String q42full = fourtycone + fullstop + q42;
+       String form42 = "3y - 2 & 25";
+       String form42full = fourtyctwo + fullstop + form42;
+       String q42a = "Use the information to write an equation";
+       String q42afull = fourtycaone + fullstop + q42a;
+       String ans42a = "3y -2 = 25";
+       String ans42afull = fourtycatwo + fullstop + ans42a;
+       String q42b = "Solve the equation to find the value of y";
+       String q42bfull = fourtycbone + fullstop + q42b;
+       String form42bi = "3y + 2 = 27";
+       String form42bifull = fourtycbtwoi + fullstop + form42bi;
+       String form42bii = "3 (27) / y = 9";
+       String form42biifull = fourtycbtwoii + fullstop + form42bii;
+       String form42biii = "y = 9";
+       String form42biiifull = fourtycbtwoiii + fullstop + form42biii;
+       System.out.println(q42full);
+       System.out.println(form42full);
+       System.out.println(q42afull);
+       System.out.println(ans42afull);
+       System.out.println(q42bfull);
+       System.out.println(form42bifull);
+       System.out.println(form42biifull);
+       System.out.println(form42biiifull);
+       // 43
+       String q43 = "Work out:";
+       String q43full = fourtydone + fullstop + q43;
+       String q43a = "42.5 x (10 ^ 3)";
+       String q43afull = fourtydaone + fullstop + q43a;
+       int ans43a = 42500;
+       String ans43ai = "(10 * 10 * 10 = 1000) = (10 ^ 3) = 42.5 x (10 ^ 3) =";
+       String ans43afull = fourtydatwo + fullstop + ans43ai + space + ans43a;
+       String q43b = "9600000 / (10 ^ 7)";
+       String q43bfull = fourtydbone + fullstop + q43b;
+       int diva = 9600000;
+       int divb = 10 * 10 * 10 * 10 * 10 * 10 * 10;
+       int ans43b = diva / divb;
+       String ans43bi = "(10 * 10 * 10 * 10 * 10 * 10 * 10 = 10000000) = (10 ^ 7) = 9600000 / (10 ^ 7) =";
+       String ans43bfull = fourtydbtwo + fullstop + ans43bi + space + ans43b;
+       String q43c = "10 - 6.23";
+       String q43cfull = fourtydcone + fullstop + q43c;
+       String ans43c = "3.77";
+       String ans43cfull = fourtydctwo + fullstop + space + equals + space + ans43c;
+       String q43d = "0.35 x 128";
+       String q43dfull = fourtyddone + fullstop + q43d;
+       String ans43d = "44.8";
+       String ans43dfull = fourtyddtwo + fullstop + space + equals + space + ans43d;
+       String q43e = "37.405 / 5";
+       String q43efull = fourtydeone + fullstop + q43e;
+       String ans43e = "7.481";
+       String ans43efull = fourtydetwo + fullstop + space + equals + space + ans43e;
+       System.out.println(q43full);
+       System.out.println(q43afull);
+       System.out.println(ans43afull);
+       System.out.println(q43bfull);
+       System.out.println(ans43bfull);
+       System.out.println(q43cfull);
+       System.out.println(ans43cfull);
+       System.out.println(q43dfull);
+       System.out.println(ans43dfull);
+       System.out.println(q43efull);
+       System.out.println(ans43efull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
