@@ -420,7 +420,7 @@ public class Main {
           String thirtyibone = thirtyeight + thirtyeightb + thirtyeighti;
           String thirtyibtwo = thirtyeight + thirtyeightb + thirtyeightii;
           // 39
-          String thirtynine = myNumsiv[7];
+          String thirtynine = myNumsiv[8];
           String thirtyninea = myLets[0];
           String thirtynineb = myLets[1];
           String thirtyninei = myNumerals[0];
