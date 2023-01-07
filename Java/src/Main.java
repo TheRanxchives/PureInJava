@@ -698,7 +698,36 @@ public class Main {
          String fiftynineii = myNumerals[1];
          // i & ii
          String fiftyjone = fiftynine + fiftyninei;                   
-         String fiftyjtwo = fiftynine + fiftynineii;                                                                
+         String fiftyjtwo = fiftynine + fiftynineii;
+          // 60
+          String sixty = myNumsvi[9];
+          String sixtyi = myNumerals[0];
+          String sixtyii = myNumerals[1];
+          String sixtyiii = myNumerals[2];
+          String sixtyiv = myNumerals[3];
+          // i & ii
+          String sixtyaone = sixty + sixtyi;                   
+          String sixtyatwo = sixty + sixtyii;                   
+          String sixtyathree = sixty + sixtyiii;      
+          String sixtyafour = sixty + sixtyiv;  
+          // 61
+          String sixtyone = myNumsvii[0];
+          String sixtyonei = myNumerals[0];
+          String sixtyoneii = myNumerals[1];
+          String sixtyoneiii = myNumerals[2];
+          String sixtyoneiv = myNumerals[3];
+          // i & ii
+          String sixtybone = sixtyone + sixtyonei;                   
+          String sixtybtwo = sixtyone + sixtyoneii;                   
+          String sixtybthree = sixtyone + sixtyoneiii;      
+          String sixtybfour = sixtyone + sixtyoneiv;  
+          // 62
+          String sixtytwo = myNumsvii[1];
+          String sixtytwoi = myNumerals[0];
+          String sixtytwoii = myNumerals[1];
+          // i & ii
+          String sixtycone = sixtytwo + sixtytwoi;                   
+          String sixtyctwo = sixtytwo + sixtytwoii;                                                                  
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
         String pnjii = "██████╗ ██╗   ██╗██████╗ ███████╗██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗ █████╗ "; 
@@ -2201,10 +2230,45 @@ public class Main {
         int rlsppc = tppr * pcks;
         int ans59 = rlsppc;
         String q59 = "Please enter how many packs of toliet paper you have and we will tell you how many sheets do they have";
+        String yh = "You have:";
+        String shets = "Sheets";
         String q59full = fiftyjone + fullstop + q59;
-        String ans59full = fiftyjtwo + fullstop + ans59;
+        String ans59full = fiftyjtwo + fullstop + yh + space + ans59 + space + shets;
         System.out.println(q59full);
         System.out.println(ans59full);
+        // 60
+        String q60i = "k > 11 means that k is:";
+        String q60ii = "Greater than 11";
+        String q60iii = "Less than 11";
+        String ans60 = "= Greater than 11";
+        String q60ifull = sixtyaone + fullstop + q60i;
+        String q60iifull = sixtyatwo + fullstop + q60ii;
+        String q60iiifull = sixtyathree + fullstop + q60iii;
+        String ans60full = sixtyafour + fullstop + ans60;
+        System.out.println(q60ifull);
+        System.out.println(q60iifull);
+        System.out.println(q60iiifull);
+        System.out.println(ans60full);
+        // 61
+        String q61i = "h > 20 means that h is:";
+        String q61ii = "Greater than 20";
+        String q61iii = "Less than 20";
+        String ans61 = "= Greater than 20";
+        String q61ifull = sixtybone + fullstop + q61i;
+        String q61iifull = sixtybtwo + fullstop + q61ii;
+        String q61iiifull = sixtybthree + fullstop + q61iii;
+        String ans61full = sixtybfour + fullstop + ans61;
+        System.out.println(q61ifull);
+        System.out.println(q61iifull);
+        System.out.println(q61iiifull);
+        System.out.println(ans61full);
+        // 62
+        String q62 = "Write down the inequality represented on the number line";
+        String ans62 = "= x > 6";
+        String q62full = sixtycone + fullstop + q62;
+        String ans62full = sixtyctwo + fullstop + ans62;
+        System.out.println(q62full);
+        System.out.println(ans62full);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
