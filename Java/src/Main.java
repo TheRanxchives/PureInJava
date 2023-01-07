@@ -7,6 +7,7 @@ public class Main {
           String[] myNumsiv = {"31", "32", "33", "34", "35", "36", "37", "38", "39", "40"};
           String[] myNumsv = {"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"};
           String[] myNumsvi = {"51", "52", "53", "54", "55", "56", "57", "58", "59", "60"};
+          String[] myNumsvii = {"61", "62", "63", "64", "66", "66", "67", "68", "69", "70"};
           String[] myLets = {"a", "b", "c" , "d"};
           String[] myLetsii = {"e", "f", "g" , "h"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
@@ -690,7 +691,14 @@ public class Main {
          String fiftyitwo = fiftyeight + fiftyeightii;                   
          String fiftyithree = fiftyeight + fiftyeightiii;      
          String fiftyifour = fiftyeight + fiftyeightiv;  
-         String fiftyifive = fiftyeight + fiftyeightv;                                                                                  
+         String fiftyifive = fiftyeight + fiftyeightv;
+         // 59
+         String fiftynine = myNumsvi[8];
+         String fiftyninei = myNumerals[0];
+         String fiftynineii = myNumerals[1];
+         // i & ii
+         String fiftyjone = fiftynine + fiftyninei;                   
+         String fiftyjtwo = fiftynine + fiftynineii;                                                                
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
         String pnjii = "██████╗ ██╗   ██╗██████╗ ███████╗██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗ █████╗ "; 
@@ -2185,6 +2193,18 @@ public class Main {
         System.out.println(q58iiifull);
         System.out.println(q58ivfull);
         System.out.println(ans58full);
+        // 59
+        int tpr = 310;
+        int rls = 10;
+        int pcks = 20;
+        int tppr = tpr * rls;
+        int rlsppc = tppr * pcks;
+        int ans59 = rlsppc;
+        String q59 = "Please enter how many packs of toliet paper you have and we will tell you how many sheets do they have";
+        String q59full = fiftyjone + fullstop + q59;
+        String ans59full = fiftyjtwo + fullstop + ans59;
+        System.out.println(q59full);
+        System.out.println(ans59full);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
