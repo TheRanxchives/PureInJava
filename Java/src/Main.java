@@ -6,7 +6,7 @@ public class Main {
           String[] myNumsiii = {"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"};
           String[] myNumsiv = {"31", "32", "33", "34", "35", "36", "37", "38", "39", "40"};
           String[] myNumsv = {"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"};
-          String[] myNumsvi = {"51", "52", "53", "55", "56", "56", "57", "58", "59", "60"};
+          String[] myNumsvi = {"51", "52", "53", "54", "55", "56", "57", "58", "59", "60"};
           String[] myLets = {"a", "b", "c" , "d"};
           String[] myLetsii = {"e", "f", "g" , "h"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
@@ -666,7 +666,31 @@ public class Main {
          String fiftygtwo = fiftysix + fiftysixi;                   
          String fiftygthree = fiftysix + fiftysixii;                   
          String fiftygfour = fiftysix + fiftysixiii;      
-         String fiftygfive = fiftysix + fiftysixiv;                                                                                        
+         String fiftygfive = fiftysix + fiftysixiv;   
+         // 57
+         String fiftyseven = myNumsvi[6];
+         String fiftyseveni = myNumerals[0];
+         String fiftysevenii = myNumerals[1];
+         String fiftyseveniii = myNumerals[2];
+         String fiftyseveniv = myNumerals[3];
+         // i & ii
+         String fiftyhone = fiftyseven + fiftyseveni;                   
+         String fiftyhtwo = fiftyseven + fiftysevenii;                   
+         String fiftyhthree = fiftyseven + fiftyseveniii;      
+         String fiftyhfour = fiftyseven + fiftyseveniv;      
+         // 58
+         String fiftyeight = myNumsvi[7];
+         String fiftyeighti = myNumerals[0];
+         String fiftyeightii = myNumerals[1];
+         String fiftyeightiii = myNumerals[2];
+         String fiftyeightiv = myNumerals[3];
+         String fiftyeightv = myNumerals[4];
+         // i & ii
+         String fiftyione = fiftyeight + fiftyeighti;                   
+         String fiftyitwo = fiftyeight + fiftyeightii;                   
+         String fiftyithree = fiftyeight + fiftyeightiii;      
+         String fiftyifour = fiftyeight + fiftyeightiv;  
+         String fiftyifive = fiftyeight + fiftyeightv;                                                                                  
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
         String pnjii = "██████╗ ██╗   ██╗██████╗ ███████╗██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗ █████╗ "; 
@@ -2097,7 +2121,7 @@ public class Main {
         System.out.println(ans55iiifull);
         System.out.println(ans55ivfull);
         // 56
-        String q56 = "Complete the following calculation. 3v8x27";
+        String q56 = "Complete the following calculation. (3v8x27)";
         String ans56i = "(8 x 27 = 216)";
         String ans56ii = "3v216 = 6";
         String ans56iii = "6 x 6 x 6 = 216";
@@ -2115,6 +2139,52 @@ public class Main {
         System.out.println(ans56iiifull);
         System.out.println(ans56ivfull);
         System.out.println(ans56vfull);
+        // 57
+        String q57state = "(STATEMENT) I got this idea from my Computer Science Exam, I altred it a bit, and added 2 ages instead of the original one for this demo. So Enjoy, my implementation";
+        String q57 = "Design a flowchart for a program to be used to classify people according to age. If a person is more than 20 years, it subtracts 5 and; output Adult else it adds five to the age and output Minor.";                                                                                                                                                                                                                     
+        String yr = "You are a:";
+        String adultiii = "Adult";
+        String minoriii = "Minor";
+        int agev = 30;
+        int agevi = 15;
+        int minagei = 20;
+        int asage = 5;
+        int asfagei = agevi + asage;
+        int asfageii = agev - asage;
+        String q57statefull = fiftyhone + fullstop + q57state;
+        String q57full = fiftyhtwo + fullstop + q57;
+        String adultiiifull = fiftyhthree + fullstop + yr + space + adultiii + space + bracketsi + asfageii + bracketsii;
+        String minoriiifull = fiftyhfour + fullstop + yr + space + minoriii + space + bracketsi + asfagei + bracketsii;
+        System.out.println(q57statefull);
+        System.out.println(q57full);
+        if (agev > minagei){
+                System.out.println(adultiiifull);
+        }
+        else {
+
+        }
+        if (agevi < minage){
+                System.out.println(minoriiifull);
+        }
+        else {
+
+        }
+        // 58
+        String q58i = "Complete this statement without using your calculator. v20 lies between:";
+        String q58ii = "19 and 21";
+        String q58iii = "2 and 3";
+        String q58iv = "4 and 5";
+        String ans58 = " = 4 and 5 (4.472135955)";
+        String q58ifull = fiftyione + fullstop + q58i;
+        String q58iifull = fiftyitwo + fullstop + q58ii;
+        String q58iiifull = fiftyithree + fullstop + q58iii;
+        String q58ivfull = fiftyifour + fullstop + q58iv;
+        String ans58full = fiftyifive + fullstop + ans58;
+        System.out.println(q58ifull);
+        System.out.println(q58iifull);
+        System.out.println(q58iiifull);
+        System.out.println(q58ivfull);
+        System.out.println(ans58full);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
