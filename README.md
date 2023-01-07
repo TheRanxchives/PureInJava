@@ -8,4 +8,8 @@
 
 ### 𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 (Chapter 2)
 
+## Saturday, 7th January 2023
+
+### Small update: We are still gonna be on hiatus.
+
 ##
