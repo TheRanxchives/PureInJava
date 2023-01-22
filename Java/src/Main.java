@@ -727,7 +727,16 @@ public class Main {
           String sixtytwoii = myNumerals[1];
           // i & ii
           String sixtycone = sixtytwo + sixtytwoi;                   
-          String sixtyctwo = sixtytwo + sixtytwoii;                                                                  
+          String sixtyctwo  = sixtytwo + sixtytwoii;   
+          // 63
+          String sixtythree = myNumsvii[2];
+          String sixtythreei = myNumerals[0];
+          String sixtythreeii = myNumerals[1];
+          // i & ii
+          String sixtydone = sixtythree;                   
+          String sixtydtwo = sixtythree + sixtythreei;   
+          String sixtydthree = sixtythree + sixtythreeii;                                             
+                                             
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
         String pnjii = "██████╗ ██╗   ██╗██████╗ ███████╗██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗ █████╗ "; 
@@ -2269,6 +2278,21 @@ public class Main {
         String ans62full = sixtyctwo + fullstop + ans62;
         System.out.println(q62full);
         System.out.println(ans62full);
+        // 63
+        String q63 = "Write the text you would like to be mirrored";
+        String tbm = "Hi, I am being mirrored";
+        String mirroredtext = "Hi, I am being mirrored";
+        String mrtxt = "derorrim gnieb ma ,iH";
+        String q63full = sixtydone + fullstop + q63;
+        String ans63ifull = sixtydtwo + fullstop + mirroredtext;
+        String ans63iifull = sixtydthree + fullstop + fullstop + mrtxt;
+        System.out.println(q63full);
+        System.out.println(ans63ifull);
+        if (mirroredtext == tbm){
+        System.out.println(ans63iifull);
+        } else {
+
+        }
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
