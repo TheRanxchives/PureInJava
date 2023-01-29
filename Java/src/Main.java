@@ -2282,10 +2282,10 @@ public class Main {
         String q63 = "Write the text you would like to be mirrored";
         String tbm = "Hi, I am being mirrored";
         String mirroredtext = "Hi, I am being mirrored";
-        String mrtxt = "derorrim gnieb ma ,iH";
+        String mrtxt = "derorrim gnieb ma I ,iH";
         String q63full = sixtydone + fullstop + q63;
         String ans63ifull = sixtydtwo + fullstop + mirroredtext;
-        String ans63iifull = sixtydthree + fullstop + fullstop + mrtxt;
+        String ans63iifull = sixtydthree + fullstop + space + mrtxt;
         System.out.println(q63full);
         System.out.println(ans63ifull);
         if (mirroredtext == tbm){
