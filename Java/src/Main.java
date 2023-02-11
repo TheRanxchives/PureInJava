@@ -7,7 +7,7 @@ public class Main {
           String[] myNumsiv = {"31", "32", "33", "34", "35", "36", "37", "38", "39", "40"};
           String[] myNumsv = {"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"};
           String[] myNumsvi = {"51", "52", "53", "54", "55", "56", "57", "58", "59", "60"};
-          String[] myNumsvii = {"61", "62", "63", "64", "66", "66", "67", "68", "69", "70"};
+          String[] myNumsvii = {"61", "62", "63", "64", "65", "66", "67", "68", "69", "70"};
           String[] myLets = {"a", "b", "c" , "d"};
           String[] myLetsii = {"e", "f", "g" , "h"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
@@ -18,6 +18,7 @@ public class Main {
           String bracketsii = ")";
           String comma = ",";
           String equals = "=";
+          String colon = ":";
           // 1
           String one = myNums[0];
           // (a)
@@ -727,7 +728,7 @@ public class Main {
           String sixtytwoii = myNumerals[1];
           // i & ii
           String sixtycone = sixtytwo + sixtytwoi;                   
-          String sixtyctwo  = sixtytwo + sixtytwoii;   
+          String sixtyctwo  = sixtytwo + sixtytwoii;  
           // 63
           String sixtythree = myNumsvii[2];
           String sixtythreei = myNumerals[0];
@@ -735,7 +736,39 @@ public class Main {
           // i & ii
           String sixtydone = sixtythree;                   
           String sixtydtwo = sixtythree + sixtythreei;   
-          String sixtydthree = sixtythree + sixtythreeii;                                             
+          String sixtydthree = sixtythree + sixtythreeii;             
+          // 64
+          String sixtyfour = myNumsvii[3];
+          String sixtyfouri = myNumerals[0];
+          String sixtyfourii = myNumerals[1];
+          // i & ii
+          String sixtyeone = sixtyfour + sixtyfouri;                   
+          String sixtyetwo  = sixtyfour + sixtyfourii;    
+          // 65
+          String sixtyfive = myNumsvii[4];
+          String sixtyfivei = myNumerals[0];
+          String sixtyfiveii = myNumerals[1];
+          String sixtyfivea = myLets[0];
+          String sixtyfiveb = myLets[1];
+          String sixtyfivec = myLets[2];
+          String sixtyfived = myLets[3];
+          String sixtyfivee = myLetsii[0];
+          String sixtyfivef = myLetsii[1];
+          // i & ii
+          String sixtyfone = sixtyfive + sixtyfivei;
+          String sixtyftwo = sixtyfive + sixtyfiveii;
+          String sixtyfthreei = sixtyfive + sixtyfivea + sixtyfivei;
+          String sixtyfthreeii = sixtyfive + sixtyfivea + sixtyfiveii;          
+          String sixtyffouri = sixtyfive + sixtyfiveb + sixtyfivei;          
+          String sixtyffourii = sixtyfive + sixtyfiveb + sixtyfiveii;          
+          String sixtyffivei = sixtyfive + sixtyfivec + sixtyfivei; 
+          String sixtyffiveii = sixtyfive + sixtyfivec + sixtyfiveii;   
+          String sixtyfsixi = sixtyfive + sixtyfived + sixtyfivei; 
+          String sixtyfsixii = sixtyfive + sixtyfived + sixtyfiveii;   
+          String sixtyfseveni = sixtyfive + sixtyfivee + sixtyfivei; 
+          String sixtyfsevenii = sixtyfive + sixtyfivee + sixtyfiveii;   
+          String sixtyfeighti = sixtyfive + sixtyfivef + sixtyfiveii;   
+          String sixtyfeightii = sixtyfive + sixtyfivef + sixtyfiveii;                                          
                                              
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
@@ -1628,7 +1661,7 @@ public class Main {
        System.out.println(q33full);
        System.out.println(q33ansfull);
        // 34
-       String statement34 = "(STATEMENT) The following questions were taken from (MA-S7MYTU1T8)";
+       String statement34 = "(STATEMENT) The following questions were taken from (MA7-S7MYTU1T8)";
        String  q34 = "Fill in the missing numbers.";
        String statement34full = thirtyeonea + fullstop + statement34;
        String q34full = thirtyeoneb + fullstop + q34;
@@ -2293,6 +2326,91 @@ public class Main {
         } else {
 
         }
+        // 64
+        String q64 = "Write down the inequality that matches this number line";
+        String ans64 = "= x < 3";
+        String q64full = sixtyeone + fullstop + q64;
+        String ans64full = sixtyetwo + fullstop + ans64;
+        System.out.println(q64full);
+        System.out.println(ans64full);
+        // 65
+        String statement65 = "(STATEMENT) The following questions were taken from (MA7-S7EOU12T)";
+        String q65 = "Write each of these ratios in it's simplest form";
+        String q65a = "2:8";
+        int divisora = 2;
+        int diviserai = 2;
+        int diviseraii = 8;
+        int answerai = diviserai / divisora;
+        int answeraii = diviseraii / divisora;
+        String ans65a = equals + space + answerai + space + colon + space + answeraii;
+        String statement65full = sixtyfone + fullstop + space + statement65;
+        String q65full = sixtyftwo + fullstop + space + q65;
+        String q65afull = sixtyfthreei + fullstop + space + q65a;
+        String ans65afull = sixtyfthreeii + fullstop + space + ans65a;
+        System.out.println(statement65full);
+        System.out.println(q65full);
+        System.out.println(q65afull);
+        System.out.println(ans65afull);
+        
+        String q65b = "3:21";
+        int divisorb = 3;
+        int diviserbi = 3;
+        int diviserbii = 21;
+        int answerbi = diviserbi / divisorb;
+        int answerbii = diviserbii / divisorb;
+        String ans65b = equals + space + answerbi + space + colon + space + answerbii;
+        String q65bfull = sixtyffouri + fullstop + space + q65b;
+        String ans65bfull = sixtyffourii + fullstop + space + ans65b;
+        System.out.println(q65bfull);
+        System.out.println(ans65bfull);
+
+        String q65c = "4 kg:20 kg";
+        int divisorc = 4;
+        int diviserci = 4;
+        int divisercii = 20;
+        int answerci = diviserci / divisorc;
+        int answercii = divisercii / divisorc;
+        String ans65c = equals + space + answerci + space + colon + space + answercii;
+        String q65cfull = sixtyffivei + fullstop + space + q65c;
+        String ans65cfull = sixtyffiveii + fullstop + space + ans65c;
+        System.out.println(q65cfull);
+        System.out.println(ans65cfull);
+
+        String q65d = "4:6";
+        int divisord = 2;
+        int diviserdi = 4;
+        int diviserdii = 6;
+        int answerdi = diviserdi / divisord;
+        int answerdii = diviserdii / divisord;
+        String ans65d = equals + space + answerdi + space + colon + space + answerdii;
+        String q65dfull = sixtyfsixi + fullstop + space + q65d;
+        String ans65dfull = sixtyfsixii + fullstop + space + ans65d;
+        System.out.println(q65dfull);
+        System.out.println(ans65dfull);
+
+        String q65e = "9 km:12 km";
+        int divisore = 3;
+        int diviserei = 9;
+        int divisereii = 12;
+        int answerei = diviserei / divisore;
+        int answereii = divisereii / divisore;
+        String ans65e = equals + space + answerei + space + colon + space + answereii;
+        String q65efull = sixtyfseveni + fullstop + space + q65e;
+        String ans65efull = sixtyfsevenii + fullstop + space + ans65e;
+        System.out.println(q65efull);
+        System.out.println(ans65efull);
+
+        String q65f = "4 cm:10 cm";
+        int divisorf = 2;
+        int diviserfi = 4;
+        int diviserfii = 10;
+        int answerfi = diviserfi / divisorf;
+        int answerfii = diviserfii / divisorf;
+        String ans65f = equals + space + answerfi + space + colon + space + answerfii;
+        String q65ffull = sixtyfeighti + fullstop + space + q65f;
+        String ans65ffull = sixtyfeightii + fullstop + space + ans65f;
+        System.out.println(q65ffull);
+        System.out.println(ans65ffull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
