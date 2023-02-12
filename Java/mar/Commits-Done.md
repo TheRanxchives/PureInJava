@@ -279,7 +279,272 @@
 
 ### **<u>iv. Trash, Trash and Trash</u>**
 
-- **I am not gonna bother with that,**
+- **I am not gonna bother with that..**
 - **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 | COMING-SOON!**
 
 # **<u>December, 2022</u>**
+
+## **<u>December 2nd, 2022</u>**
+
+### **<u>i. Triple, Triple and Tripleé</u>**
+
+- **Finally finished Q24 (156 lines of code)**
+- **Had to work a lot around the integer limit (so the max on monstu, bnstu & knstu is set to 148)**
+- **Fixed something in Q5(a) - kinda an update.**
+- **Fixed something in Q5(b) - It seems like I missed a space when transferring the codebase from online**
+- **Still no errors to be found.**
+- **It's almost the second time before the year ends! COMMIT-A-THON!! I still don't have a date - but startin' 16/12/2022.**
+- **Contradicting - time! "Hopefully maybe next time for Ideas! Yeah!"**
+- **This was kind of a tough one to do - I was gonna include it in Commit One (Double, Double and Doubleé)**
+- **So yeah, when I feel like exploring the hundreds of Ideas I have left I will do somethin, somethin' Maybe tomorrow.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 coming soon**
+
+## **<u>December 3rd, 2022</u>**
+
+### **<u>i. Very, very, very, very smol change.</u>**
+
+- **Since I don't want to include this in my next commit here are the two removals - also explaining the additions.**
+- **Changed the word "your" to "the (randomized)", and also changing a slight grammar issue - the (randomated) to the (randomized) - a slight slip-up! - Line 852**
+- **Removed an unnecessary space - Line 1001**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 coming soon!**
+
+## **<u>December 4th, 2022</u>**
+
+### **<u>i. Commit-a-thon (Chapter 2) (P1)</u>**
+
+- **VSCODE changed my bin folder - so the .pseudos are now in the lib folder**
+- **Now commits from both my Surface Pro X and Desktop!**
+- **Finally finished Q25 (using translation from my computer science book)**
+- **Converted whole project to Gradle (kinda)**
+- **Contradiction time " So yeah, when I feel like exploring the hundreds of Ideas I have left I will do somethin, somethin' Maybe tomorrow."**
+- **Be tuned in for the next commit happenin' soon!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 (Chapter 2)**
+
+### **<u>iii.Commit-a-thon (Chapter 2) (P2)</u>**
+
+- **Finally finished Q26 (using translation from my Computer Science book)**
+- **Lol, It was very quick to code.**
+- **Contradiction time "Be tuned in for the next commit happenin' soon!"**
+- **We are gon be runnin! So be tuned on your Githubs!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 (Chapter 2)**
+
+### **<u>ii. Commit-a-thon (Chapter 2) (P3)</u>**
+
+- **Finally finished Q27 (using translation from my Computer Science book)**
+- **Lol, It was very quick to code.**
+- **Contradiction time " We are gon be runnin! So be tuned on your Githubs!"**
+- **Yaas we almost done!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 (Chapter 2)**
+
+### **<u>iv. Commit-a-thon (Chapter 2) (P4)</u>**
+
+- **Finally finished Q28 (using most translation from my Computer Science book)**
+- **Next Commit will be a 3in1 for no repetition.**
+- **Contradiction time "Yaas we almost done!"**
+- **Here comes the sun!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 (Chapter 2)**
+
+### **<u>v. Commit-a-thon (Chapter 2) (P5, P6 & P7)</u>**
+
+- **So um, I did a 3-in1 to avoid anything being repeated.**
+- **Since I have not commited anything - I kinda cannot contradict anything.**
+- **This is the *not* the definite end of Commit-a-thon Chapter 2.**
+- **Thanks for the 6, or so hours.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫  Chapter 2**
+
+### **<u>vi. Commit-a-thon (Chapter 2) (P7.9)</u>**
+
+- **No tomfoolery this time.**
+- **It was the best time ever as usual, and Didn't have too many changes.**
+- **Hiatuses are crazy, but I need one right now.**
+- **This is the definite end of Commit-a-thon Chapter 2.**
+- **Thanks for a 6 or so hours.**
+- **Now back to normal commits, after the hiatus!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 Chapter 2**
+
+### **<u>vii. Codename: 'rename'</u>**
+
+- **Renamed it from Announcement-ReadMe to README For Github to notice it.**
+
+## **<u>December 8th, 2022</u>**
+
+### **<u>i. Smaller than small letters.</u>**
+
+- **Changed "we" to "i" - Line 919**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆**
+
+### **<u>ii. Merge branch 'code' of https://github.com/maranxlee/PureInJava into code</u>**
+
+***No Comment***
+
+### **<u>ii. Gimme, Gimme, Gimme.</u>**
+
+- **Added 32 and 33.**
+- **Which kinda do the same thing.**
+- **Still on Hiatus (kinda)**
+- **And yeah, contradiction time "Here comes the sun!"**
+- **Now we say, The time is almost up. Ideas are starting to say hello!**
+- **Cliché, IK!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆**
+
+## **<u>December 15th, 2022</u>**
+
+### **<u>i. Commit-a-thon (Chapter 3) (P1)</u>**
+
+- **Ya boi finally back from hiatus**
+- **First 3-day commit-a-thon**
+- **Gettin' Ideas from my Math papers now.**
+- **Expanding coverage**
+- **Contradiction time "Cliché, IK!"**
+- **No mention of Q35**
+- **Yeah, take it quick!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 Chapter 3**
+
+### **<u>ii. Commit-a-thon (Chapter 3) (P2 & P3)</u>**
+
+- **Took a lil' pause from my math papers**
+- **Added 35 & 36 from my exam paper**
+- **Contradiction time "Yeah, take it quick!"**
+- **Chapu, Chapu.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 Chapter 3**
+
+### **<u>iii. Commit-a-thon (Chapter 3) (P4)</u>**
+
+- **Nothin' Big! Just added Q37 (a & b)**
+- **Contradiction time "Chapu, Chapu."**
+- **We will be runnin'**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 Chapter 3**
+
+### **<u>iv. Commit-a-thon (Chapter 3) (P5 & P6)</u>**
+
+- **Since Q38 and Q39 I made it one commit.**
+- **Contradiction time "We will be runnin'"**
+- **GN, See you tomorrow!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 Chapter 3**
+
+### **<u>v. Adding impl</u>**
+
+- **For Main.java**
+
+### **<u>vi. Rename impl to impl.txt</u>**
+
+***No Comment***
+
+### **<u>vii. Red Big Button</u>**
+
+- **Deleted impl (Because It was implemented)** 
+
+### **<u>viii. Finally matched them.</u>**
+
+- **Startin' to look up.**
+
+## **<u>December 19th, 2022</u>**
+
+### **<u>i. Small changes!</u>**
+
+- **Before da' Commit-a-thon continues I have two small changes:**
+- **Changed (39's numbering from) [7] to [8] (Line 423)**
+- **Removed a space (???) from Line 1481 (Line 1481)**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | small_changes**
+
+### **<u>i. Commit-a-thon (Chapter 3) (P7, P8, P9 & P10)</u>**
+
+- **Welcome back to day 2!**
+- **I didn't get a lot of work done in the past two days.**
+- **But now we are almost there!**
+- **I finally added Q40 Q41, Q42 & Q43 because  i was too lazy to make another**
+- **Contradiction time! "GN, See you tomorrow!"**
+- **Poof, be gone - good bye work!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 Chapter 3**
+
+## **<u>December 31st, 2022</u>**
+
+### **<u>i. Another Banger.</u>**
+
+- **Over 1000 lines of code have been written since PureInJava started.**
+- **YOU can do whatever you please with the code and I have something to do with my l!f3 =)**
+- **Thank you, for everything. Even if I decided to end it here.**
+- **It's the end of the line, for the year atleast... 'till we get h0m3 no updates.**
+- **Cya, H4PPY N3W Y34R!!**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 |ℭ𝔬𝔪𝔪𝔦𝔱-𝔞-𝔱𝔥𝔬𝔫 | N6M L0CK**
+
+# **<u>January, 2023</u>**
+
+## **<u>January 7th, 2023</u>**
+
+### **<u>i. ありがとうございました！(P1)</u>**
+
+- **This is one of the last commits I might to do this repo**
+- **There is still one commit**
+- **But I am ending it (for now) in style so..**
+- **Can't wait to see you in part 2**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | たまに。**。
+
+### **<u>ii. Tepee joke (たまに。。(P1.5))</u>**
+
+- **Just a joke. but actual code.**
+- **I wanted to lighten the mood a bit.**
+- **So yeah, now for the real thing**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | たまに。。**
+
+### **<u>iii. ありがとうございました！(P2.0)</u>**
+
+- **A slight fix to the Tepee Joke.**
+- **Thanks for everything so far.**
+- **I don't think this is the end of the line for PureInJava**
+- **But For now, Thanks!**
+- **Cheers, maranxlee..**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | たまに。。**
+
+### **<u>iv. たまに。。(P2.5a)</u>**
+
+- **Added small update.**
+
+### **<u>v. たまに。。(P2.5b)</u>**
+
+- **Also added small update.**
+
+## **<u>January 22nd, 2023</u>**
+
+### **<u>i. We are coming back strong.</u>**
+
+- **I guess, it has been a while since I last did a commit.**
+- **I am going back to the books to finish up and start doing Java - full time* now.**
+- **So something will be happening soon. Expect to see only the best.**
+- **I added a mar folder finally. If you wanna check out my markdowns - you are free to.**
+- **Thanks for (taking your time)!**
+- **Good day.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆**
+
+# **<u>February, 2023</u>**
+
+## **<u>February 11th, 2023</u>**
+
+### **<u>i. Savesta Fesh (P1 - EP. 1)</u>**
+
+- **Welcome, to my newest addition - savesta fesh for while I am on mid-term.**
+- **I can commit from my PC, Surface and now ThinkPad**
+- **I added a Commits-Done. One of the scrapped Ideas back... We only got to November for now.**
+- **I mostly fixed bugs but also added new code.**
+- **Some from where I picked off last time and some from "MA7-S7EOU12T"**
+- **Contradiction time! "I added a mar folder finally. If you wanna check out my markdowns - you are free to."**
+- **Yeah, for the first time that didn't make sense.**
+- **Thanks for tuning in today.**
+- **Cheers, see you tomorrow.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | Savesta Fesh**
+
+## **<u>February 12th, 2023</u>**
+
+### **<u>i. Markdown Touchup</u>**
+
+- **I got the markdown all the way to this commit and just thought I should save it**
+- **Also added an ideas folder to mirror the markdowns from there are here.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | Savesta Fesh**
+
+### **<u>ii. Finally matched them. (again)</u>**
+
+- **It is starting to get the special treatment.**
+
+## **<u>iii. doesn't count</u>**
+
+***No Comment***
