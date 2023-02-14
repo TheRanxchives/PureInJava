@@ -19,6 +19,7 @@ public class Main {
           String comma = ",";
           String equals = "=";
           String colon = ":";
+          String dollarsign = "$";
           // 1
           String one = myNums[0];
           // (a)
@@ -768,8 +769,44 @@ public class Main {
           String sixtyfseveni = sixtyfive + sixtyfivee + sixtyfivei; 
           String sixtyfsevenii = sixtyfive + sixtyfivee + sixtyfiveii;   
           String sixtyfeighti = sixtyfive + sixtyfivef + sixtyfiveii;   
-          String sixtyfeightii = sixtyfive + sixtyfivef + sixtyfiveii;                                          
-                                             
+          String sixtyfeightii = sixtyfive + sixtyfivef + sixtyfiveii;                                         
+        // 66
+         String sixtysix = myNumsvii[5];
+         String sixtysixi = myNumerals[0];
+         String sixtysixii = myNumerals[1];
+         String sixtysixiii = myNumerals[2];
+         // i & ii
+         String sixtygone = sixtysix + sixtysixi;                   
+         String sixtygtwo = sixtysix + sixtysixii;
+         String sixtygthree = sixtysix + sixtysixiii;
+         // 67
+         String sixtyseven = myNumsvii[6];
+         String sixtyseveni = myNumerals[0];
+         String sixtysevenii = myNumerals[1];
+         // i & ii
+         String sixtyhone = sixtyseven + sixtyseveni;                   
+         String sixtyhtwo = sixtyseven + sixtysevenii;     
+         // 68
+         String sixtyeight = myNumsvii[7];
+         String sixtyeighti = myNumerals[0];
+         String sixtyeightii = myNumerals[1];
+         String sixtyeightiii = myNumerals[2];
+         // i & ii
+         String sixtyione = sixtyeight + sixtyeighti;                   
+         String sixtyitwo = sixtyeight + sixtyeightii;   
+         String sixtyithree = sixtyeight + sixtyeightiii; 
+         // 69
+         String sixtynine = myNumsvii[8];
+         String sixtyninei = myNumerals[0];
+         String sixtynineii = myNumerals[1];
+         String sixtyninea = myLets[0];
+         String sixtynineb = myLets[1];
+         // i & ii
+         String sixtyjone = sixtynine;                   
+         String sixtyjaone = sixtynine + sixtyninea + sixtyninei;     
+         String sixtyjatwo = sixtynine +  sixtyninea + sixtynineii;
+         String sixtyjbone = sixtynine + sixtynineb + sixtyninei;    
+         String sixtyjbtwo = sixtynine +  sixtynineb + sixtynineii;                               
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
         String pnjii = "██████╗ ██╗   ██╗██████╗ ███████╗██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗ █████╗ "; 
@@ -2411,6 +2448,75 @@ public class Main {
         String ans65ffull = sixtyfeightii + fullstop + space + ans65f;
         System.out.println(q65ffull);
         System.out.println(ans65ffull);
+        // 66
+        String q66a = "Sally mixes tins of white paint with green paint in the ratio of 1:3.";
+        String q66b = " Flo mixes tins of white paint with green paint in the ratio of 2:5.";
+        String q66c = "Who has the darker paint, Sally or Flo";
+        String q66d = "Explain your answer";
+        String ans66a = "Sally";
+        String ans66b = "Because using the ratio 1:3 means 3 tins of green and 1 tin of white";
+        String q66afull = sixtygone + fullstop + space + q66a;
+        String ans66afull = sixtygtwo + fullstop + space + equals + space +  ans66a;
+        String ans66bfull  = sixtygthree + fullstop + space + ans66b;
+        System.out.println(q66afull);
+        System.out.println(q66b);
+        System.out.println(q66c);
+        System.out.println(ans66afull);
+        System.out.println(q66d);
+        System.out.println(ans66bfull);
+        // 67
+        String q67 = "Share $60 between Alice and Joe in the ratio 3:2";
+        String ans67a = "$60";
+        String ans67b = "3 + 2 = 5";
+        String ans67c = "$60 / 5";
+        int dollars = 60;
+        int divde = 5;
+        int ans67ba = dollars / divde;
+        String ans67d = "Alice = 3 x 12 = 36";
+        String ans67e = "Joe = 2 x 12 = 24";
+        String q67full = sixtyhone + fullstop + space + q67;
+        String ans67afull = sixtyhtwo + fullstop + space + ans67a;
+        String ans67dfull = ans67d + space + equals + ans67ba;
+        System.out.println(q67full);
+        System.out.println(ans67afull);
+        System.out.println(ans67b);
+        System.out.println(ans67c);
+        System.out.println(ans67dfull);
+        System.out.println(ans67e);
+        // 68
+        String q68pa = "Erol buys five tickets to a show for $80. How much do three tickets cost?";
+        String ans68a = "80 / 5";
+        int ans68ba = 80;
+        int ans68bb = 5;
+        int dvdedii = ans68ba / ans68bb;
+        String ans68b = "16 x 3";
+        int ans68ca = 16;
+        int ans68cb = 3;
+        int dvdediii = ans68ca * ans68cb;
+        String ans68af = ans68a + space + equals + dvdedii;
+        String ans68bf = ans68b + space + equals +  space + dollarsign + dvdediii;
+        String q68pafull = sixtyione + fullstop + space + q68pa;
+        String ans68afull = sixtyitwo + fullstop + space + ans68af;
+        String ans68bfull = sixtyithree + fullstop + space + ans68bf;
+        System.out.println(q68pafull);
+        System.out.println(ans68afull);
+        System.out.println(ans68bfull);
+        // 69
+        String q69 = "Anil is paid $51 for 6 hours of work. How much does he earn when he works for;";
+        String q69a = "12 hours";
+        String ans69a = "51 x 2 = 102 ($102)";
+        String q69b = "15 hours";
+        String ans69b = "51 x 2 = 102 + 25.5 = 127.5 ($127.5)";
+        String q69full = sixtyjone + fullstop + space + q69;
+        String q69afull = sixtyjaone + fullstop + space + q69a;
+        String ans69afull = sixtyjatwo + fullstop + space + ans69a;
+        String q69bfull = sixtyjbone + fullstop + space + q69b;
+        String ans69bfull = sixtyjbtwo + fullstop + space + ans69b;
+        System.out.println(q69full);
+        System.out.println(q69afull);
+        System.out.println(ans69afull);
+        System.out.println(q69bfull);
+        System.out.println(ans69bfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
