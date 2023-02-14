@@ -548,3 +548,18 @@
 ## **<u>iii. doesn't count</u>**
 
 ***No Comment***
+
+## **<u>February 14th, 2023</u>**
+
+## **<u>i. Savesta Fesh [DONE]</u>**
+
+- **Savesta Fesh has been concluded for now and will be continued soon but will not be done anymore**
+- **Finished Q68 and 69 using my test.**
+- **Don't mind the funny number**
+- **Contradiction time "Cheers, see you tomorrow."**
+- **Hope to see you once-more later.**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆**
+
+## **<u>ii. Update to Commit Log</u>**
+
+***No Comment***
