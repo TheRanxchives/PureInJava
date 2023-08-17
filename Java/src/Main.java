@@ -7,7 +7,7 @@ public class Main {
           String[] myNumsiv = {"31", "32", "33", "34", "35", "36", "37", "38", "39", "40"};
           String[] myNumsv = {"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"};
           String[] myNumsvi = {"51", "52", "53", "54", "55", "56", "57", "58", "59", "60"};
-          String[] myNumsvii = {"61", "62", "63", "64", "66", "66", "67", "68", "69", "70"};
+          String[] myNumsvii = {"61", "62", "63", "64", "65", "66", "67", "68", "69", "70"};
           String[] myLets = {"a", "b", "c" , "d"};
           String[] myLetsii = {"e", "f", "g" , "h"};
           String[] myNumerals = {"i","ii","iii","iv","v","vi"};
@@ -18,6 +18,8 @@ public class Main {
           String bracketsii = ")";
           String comma = ",";
           String equals = "=";
+          String colon = ":";
+          String dollarsign = "$";
           // 1
           String one = myNums[0];
           // (a)
@@ -727,7 +729,7 @@ public class Main {
           String sixtytwoii = myNumerals[1];
           // i & ii
           String sixtycone = sixtytwo + sixtytwoi;                   
-          String sixtyctwo  = sixtytwo + sixtytwoii;   
+          String sixtyctwo  = sixtytwo + sixtytwoii;  
           // 63
           String sixtythree = myNumsvii[2];
           String sixtythreei = myNumerals[0];
@@ -735,8 +737,76 @@ public class Main {
           // i & ii
           String sixtydone = sixtythree;                   
           String sixtydtwo = sixtythree + sixtythreei;   
-          String sixtydthree = sixtythree + sixtythreeii;                                             
-                                             
+          String sixtydthree = sixtythree + sixtythreeii;             
+          // 64
+          String sixtyfour = myNumsvii[3];
+          String sixtyfouri = myNumerals[0];
+          String sixtyfourii = myNumerals[1];
+          // i & ii
+          String sixtyeone = sixtyfour + sixtyfouri;                   
+          String sixtyetwo  = sixtyfour + sixtyfourii;    
+          // 65
+          String sixtyfive = myNumsvii[4];
+          String sixtyfivei = myNumerals[0];
+          String sixtyfiveii = myNumerals[1];
+          String sixtyfivea = myLets[0];
+          String sixtyfiveb = myLets[1];
+          String sixtyfivec = myLets[2];
+          String sixtyfived = myLets[3];
+          String sixtyfivee = myLetsii[0];
+          String sixtyfivef = myLetsii[1];
+          // i & ii
+          String sixtyfone = sixtyfive + sixtyfivei;
+          String sixtyftwo = sixtyfive + sixtyfiveii;
+          String sixtyfthreei = sixtyfive + sixtyfivea + sixtyfivei;
+          String sixtyfthreeii = sixtyfive + sixtyfivea + sixtyfiveii;          
+          String sixtyffouri = sixtyfive + sixtyfiveb + sixtyfivei;          
+          String sixtyffourii = sixtyfive + sixtyfiveb + sixtyfiveii;          
+          String sixtyffivei = sixtyfive + sixtyfivec + sixtyfivei; 
+          String sixtyffiveii = sixtyfive + sixtyfivec + sixtyfiveii;   
+          String sixtyfsixi = sixtyfive + sixtyfived + sixtyfivei; 
+          String sixtyfsixii = sixtyfive + sixtyfived + sixtyfiveii;   
+          String sixtyfseveni = sixtyfive + sixtyfivee + sixtyfivei; 
+          String sixtyfsevenii = sixtyfive + sixtyfivee + sixtyfiveii;   
+          String sixtyfeighti = sixtyfive + sixtyfivef + sixtyfiveii;   
+          String sixtyfeightii = sixtyfive + sixtyfivef + sixtyfiveii;                                         
+        // 66
+         String sixtysix = myNumsvii[5];
+         String sixtysixi = myNumerals[0];
+         String sixtysixii = myNumerals[1];
+         String sixtysixiii = myNumerals[2];
+         // i & ii
+         String sixtygone = sixtysix + sixtysixi;                   
+         String sixtygtwo = sixtysix + sixtysixii;
+         String sixtygthree = sixtysix + sixtysixiii;
+         // 67
+         String sixtyseven = myNumsvii[6];
+         String sixtyseveni = myNumerals[0];
+         String sixtysevenii = myNumerals[1];
+         // i & ii
+         String sixtyhone = sixtyseven + sixtyseveni;                   
+         String sixtyhtwo = sixtyseven + sixtysevenii;     
+         // 68
+         String sixtyeight = myNumsvii[7];
+         String sixtyeighti = myNumerals[0];
+         String sixtyeightii = myNumerals[1];
+         String sixtyeightiii = myNumerals[2];
+         // i & ii
+         String sixtyione = sixtyeight + sixtyeighti;                   
+         String sixtyitwo = sixtyeight + sixtyeightii;   
+         String sixtyithree = sixtyeight + sixtyeightiii; 
+         // 69
+         String sixtynine = myNumsvii[8];
+         String sixtyninei = myNumerals[0];
+         String sixtynineii = myNumerals[1];
+         String sixtyninea = myLets[0];
+         String sixtynineb = myLets[1];
+         // i & ii
+         String sixtyjone = sixtynine;                   
+         String sixtyjaone = sixtynine + sixtyninea + sixtyninei;     
+         String sixtyjatwo = sixtynine +  sixtyninea + sixtynineii;
+         String sixtyjbone = sixtynine + sixtynineb + sixtyninei;    
+         String sixtyjbtwo = sixtynine +  sixtynineb + sixtynineii;                               
           // (PNJ) Ascii Art
         String pnji = "============================== maranxlee Presents ============================";
         String pnjii = "██████╗ ██╗   ██╗██████╗ ███████╗██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗ █████╗ "; 
@@ -1628,7 +1698,7 @@ public class Main {
        System.out.println(q33full);
        System.out.println(q33ansfull);
        // 34
-       String statement34 = "(STATEMENT) The following questions were taken from (MA-S7MYTU1T8)";
+       String statement34 = "(STATEMENT) The following questions were taken from (MA7-S7MYTU1T8)";
        String  q34 = "Fill in the missing numbers.";
        String statement34full = thirtyeonea + fullstop + statement34;
        String q34full = thirtyeoneb + fullstop + q34;
@@ -2293,6 +2363,160 @@ public class Main {
         } else {
 
         }
+        // 64
+        String q64 = "Write down the inequality that matches this number line";
+        String ans64 = "= x < 3";
+        String q64full = sixtyeone + fullstop + q64;
+        String ans64full = sixtyetwo + fullstop + ans64;
+        System.out.println(q64full);
+        System.out.println(ans64full);
+        // 65
+        String statement65 = "(STATEMENT) The following questions were taken from (MA7-S7EOU12T)";
+        String q65 = "Write each of these ratios in it's simplest form";
+        String q65a = "2:8";
+        int divisora = 2;
+        int diviserai = 2;
+        int diviseraii = 8;
+        int answerai = diviserai / divisora;
+        int answeraii = diviseraii / divisora;
+        String ans65a = equals + space + answerai + space + colon + space + answeraii;
+        String statement65full = sixtyfone + fullstop + space + statement65;
+        String q65full = sixtyftwo + fullstop + space + q65;
+        String q65afull = sixtyfthreei + fullstop + space + q65a;
+        String ans65afull = sixtyfthreeii + fullstop + space + ans65a;
+        System.out.println(statement65full);
+        System.out.println(q65full);
+        System.out.println(q65afull);
+        System.out.println(ans65afull);
+        
+        String q65b = "3:21";
+        int divisorb = 3;
+        int diviserbi = 3;
+        int diviserbii = 21;
+        int answerbi = diviserbi / divisorb;
+        int answerbii = diviserbii / divisorb;
+        String ans65b = equals + space + answerbi + space + colon + space + answerbii;
+        String q65bfull = sixtyffouri + fullstop + space + q65b;
+        String ans65bfull = sixtyffourii + fullstop + space + ans65b;
+        System.out.println(q65bfull);
+        System.out.println(ans65bfull);
+
+        String q65c = "4 kg:20 kg";
+        int divisorc = 4;
+        int diviserci = 4;
+        int divisercii = 20;
+        int answerci = diviserci / divisorc;
+        int answercii = divisercii / divisorc;
+        String ans65c = equals + space + answerci + space + colon + space + answercii;
+        String q65cfull = sixtyffivei + fullstop + space + q65c;
+        String ans65cfull = sixtyffiveii + fullstop + space + ans65c;
+        System.out.println(q65cfull);
+        System.out.println(ans65cfull);
+
+        String q65d = "4:6";
+        int divisord = 2;
+        int diviserdi = 4;
+        int diviserdii = 6;
+        int answerdi = diviserdi / divisord;
+        int answerdii = diviserdii / divisord;
+        String ans65d = equals + space + answerdi + space + colon + space + answerdii;
+        String q65dfull = sixtyfsixi + fullstop + space + q65d;
+        String ans65dfull = sixtyfsixii + fullstop + space + ans65d;
+        System.out.println(q65dfull);
+        System.out.println(ans65dfull);
+
+        String q65e = "9 km:12 km";
+        int divisore = 3;
+        int diviserei = 9;
+        int divisereii = 12;
+        int answerei = diviserei / divisore;
+        int answereii = divisereii / divisore;
+        String ans65e = equals + space + answerei + space + colon + space + answereii;
+        String q65efull = sixtyfseveni + fullstop + space + q65e;
+        String ans65efull = sixtyfsevenii + fullstop + space + ans65e;
+        System.out.println(q65efull);
+        System.out.println(ans65efull);
+
+        String q65f = "4 cm:10 cm";
+        int divisorf = 2;
+        int diviserfi = 4;
+        int diviserfii = 10;
+        int answerfi = diviserfi / divisorf;
+        int answerfii = diviserfii / divisorf;
+        String ans65f = equals + space + answerfi + space + colon + space + answerfii;
+        String q65ffull = sixtyfeighti + fullstop + space + q65f;
+        String ans65ffull = sixtyfeightii + fullstop + space + ans65f;
+        System.out.println(q65ffull);
+        System.out.println(ans65ffull);
+        // 66
+        String q66a = "Sally mixes tins of white paint with green paint in the ratio of 1:3.";
+        String q66b = " Flo mixes tins of white paint with green paint in the ratio of 2:5.";
+        String q66c = "Who has the darker paint, Sally or Flo";
+        String q66d = "Explain your answer";
+        String ans66a = "Sally";
+        String ans66b = "Because using the ratio 1:3 means 3 tins of green and 1 tin of white";
+        String q66afull = sixtygone + fullstop + space + q66a;
+        String ans66afull = sixtygtwo + fullstop + space + equals + space +  ans66a;
+        String ans66bfull  = sixtygthree + fullstop + space + ans66b;
+        System.out.println(q66afull);
+        System.out.println(q66b);
+        System.out.println(q66c);
+        System.out.println(ans66afull);
+        System.out.println(q66d);
+        System.out.println(ans66bfull);
+        // 67
+        String q67 = "Share $60 between Alice and Joe in the ratio 3:2";
+        String ans67a = "$60";
+        String ans67b = "3 + 2 = 5";
+        String ans67c = "$60 / 5";
+        int dollars = 60;
+        int divde = 5;
+        int ans67ba = dollars / divde;
+        String ans67d = "Alice = 3 x 12 = 36";
+        String ans67e = "Joe = 2 x 12 = 24";
+        String q67full = sixtyhone + fullstop + space + q67;
+        String ans67afull = sixtyhtwo + fullstop + space + ans67a;
+        String ans67dfull = ans67d + space + equals + ans67ba;
+        System.out.println(q67full);
+        System.out.println(ans67afull);
+        System.out.println(ans67b);
+        System.out.println(ans67c);
+        System.out.println(ans67dfull);
+        System.out.println(ans67e);
+        // 68
+        String q68pa = "Erol buys five tickets to a show for $80. How much do three tickets cost?";
+        String ans68a = "80 / 5";
+        int ans68ba = 80;
+        int ans68bb = 5;
+        int dvdedii = ans68ba / ans68bb;
+        String ans68b = "16 x 3";
+        int ans68ca = 16;
+        int ans68cb = 3;
+        int dvdediii = ans68ca * ans68cb;
+        String ans68af = ans68a + space + equals + dvdedii;
+        String ans68bf = ans68b + space + equals +  space + dollarsign + dvdediii;
+        String q68pafull = sixtyione + fullstop + space + q68pa;
+        String ans68afull = sixtyitwo + fullstop + space + ans68af;
+        String ans68bfull = sixtyithree + fullstop + space + ans68bf;
+        System.out.println(q68pafull);
+        System.out.println(ans68afull);
+        System.out.println(ans68bfull);
+        // 69
+        String q69 = "Anil is paid $51 for 6 hours of work. How much does he earn when he works for;";
+        String q69a = "12 hours";
+        String ans69a = "51 x 2 = 102 ($102)";
+        String q69b = "15 hours";
+        String ans69b = "51 x 2 = 102 + 25.5 = 127.5 ($127.5)";
+        String q69full = sixtyjone + fullstop + space + q69;
+        String q69afull = sixtyjaone + fullstop + space + q69a;
+        String ans69afull = sixtyjatwo + fullstop + space + ans69a;
+        String q69bfull = sixtyjbone + fullstop + space + q69b;
+        String ans69bfull = sixtyjbtwo + fullstop + space + ans69b;
+        System.out.println(q69full);
+        System.out.println(q69afull);
+        System.out.println(ans69afull);
+        System.out.println(q69bfull);
+        System.out.println(ans69bfull);
           // Show Code
           boolean showcode = true;
           String showcodesi = "Show Code";
