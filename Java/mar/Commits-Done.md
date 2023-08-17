@@ -1,4 +1,4 @@
-# <u>**[PureInJava] Commits Done to PureInJava (code, ideas) [2022-2023]**</u>
+# <u>**[PureInJava] Commits Done to PureInJava (code, ideas) [2022-2024]**</u>
 
 # **<u>November, 2022</u>**
 
@@ -504,6 +504,7 @@
 
 - **Also added small update.**
 
+
 ## **<u>January 22nd, 2023</u>**
 
 ### **<u>i. We are coming back strong.</u>**
@@ -515,6 +516,11 @@
 - **Thanks for (taking your time)!**
 - **Good day.**
 - **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆**
+
+## **<u>January 29th, 2023</u>** 
+### **<u>i. OOhhhooioo</u>**
+
+- **Bug fixes. Exactly.**
 
 # **<u>February, 2023</u>**
 
@@ -563,3 +569,16 @@
 ## **<u>ii. Update to Commit Log</u>**
 
 ***No Comment***
+
+# **<u>August, 2023</u>**
+
+## **<u>i. Merge branch 'code' of https://github.com/maranxlee/PureInJava into code</u>**
+
+***No Comment***
+
+## **<u>ii. A little revisit.</u>**
+
+- **Hi, It's been a while**
+- **This was my life at some point, and still will be. Keep on the look-out**
+- **I was taking a look at it because an old laptop (when I was doing this triggered a revisit!) - so I editied some things cause of the "commits" it did**
+- **𝕞𝕒𝕣𝕒𝕟𝕩𝕝𝕖𝕖 | 𝕻𝖚𝖗𝖊𝕴𝖓𝕵𝖆𝖛𝖆 | 𝕄𝕩𝕣𝕜𝕕𝕠𝕨𝕟 ℝ𝕖𝕧𝕚𝕤𝕚𝕥 | ​🇸​​🇳​​🇦​​🇰​​🇪​​🇼​​🇪​​🇧​ **
